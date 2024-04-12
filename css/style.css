@@ -1,0 +1,114 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    line-height: 4rem;
+}
+
+/* Utilities */
+
+.btn {
+    padding: 10px 30px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: 1px solid #28a745;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #28a745;
+    border: 1px solid #000;
+}   
+
+.btn:active {
+    background-color: #31c654;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    height: 10%;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    display: block;
+    padding: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.navbar-links a:hover {
+    border-bottom: 1px solid #28a745;
+}
+
+.navbar-links a:active {
+    border-bottom: 2px solid #31c654;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 5vh, 5rem);
+}
+
+.hero-subtitle {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: center;
+    }
+}
