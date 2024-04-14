@@ -82,6 +82,12 @@ p {
   left: -10000px;
 }
 
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 /* Navbar Styles */
 
 .navbar {
@@ -96,10 +102,14 @@ p {
   font-size: 3rem;
   margin: 10px;
   cursor: pointer;
+  background-color: transparent;
+  width: 50px;
+
+  transition: transform 0.15s;
 }
 
-.navbar .logo a {
-  color: #fff;
+.navbar .logo img {
+  width: 100%;
 }
 
 .navbar-links ul {
@@ -185,6 +195,10 @@ p {
   padding: 30px;
   margin-bottom: 5rem;
   background-color: #111;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .skills .skills-title-container {
@@ -201,6 +215,12 @@ p {
   width: max-content;
 }
 
+.skills figure {
+  flex-basis: 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
 .skills i {
   color: #fff;
   padding: 1.6rem;
@@ -208,7 +228,6 @@ p {
 }
 
 .skills i:hover {
-  color: #31c654;
   transform: scale(1.1);
 }
 
@@ -217,7 +236,7 @@ p {
 }
 
 .skills .fa-css3-alt:hover {
-  color: #2965f1;
+  color: #527de0;
 }
 
 .skills .fa-js:hover {
@@ -226,6 +245,10 @@ p {
 
 .skills .fa-react:hover {
   color: #88dded;
+}
+
+.skills .fa-node:hover {
+  color: #68a063;
 }
 
 .skills .fa-database:hover {
@@ -237,7 +260,7 @@ p {
 }
 
 .skills figcaption {
-  font-size: clamp(2rem, 3vw, 4rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: 15px;
   color: #fff;
 }
@@ -248,10 +271,6 @@ p {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.skills .skill-icons > div {
-  padding: 20px;
 }
 
 /* Footer */
@@ -270,14 +289,14 @@ p {
   width: 100%;
 }
 
-#footer .footer-icons i {
+#footer i {
   color: #fff;
   margin: 20px;
 
   transition: transform 0.15s;
 }
 
-#footer .footer-icons i:hover {
+#footer i:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
