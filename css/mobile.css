@@ -1,42 +1,121 @@
 @media (max-width: 500px) {
-    .toggle-button {
-        display: flex;
-    }
-    
-    .navbar {
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 0;
-        height: auto;
-    }
 
-    .navbar-links {
-        display: none;
-    }
+  .toggle-button {
+    display: flex;
+  }
 
-    .navbar-links ul {
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-    }
+  .navbar {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    height: auto;
+  }
 
-    .navbar-links a {
-        padding: 0.5rem 1rem;
-    }
+  .navbar-links {
+    display: none;
+  }
 
-    .navbar-links a:hover {
-        border: none;
-        width: 100%;
-    }
+  .navbar-links ul {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .navbar-links li:hover {
-        background-color: #444;
-        width: 100%;
-        text-align: center;
-    }
+  .navbar-links a {
+    padding: 0.5rem 1rem;
+  }
 
-    .navbar-links.active {
-        display: flex;
-    }
+  .navbar-links a:hover {
+    border: none;
+    width: 100%;
+  }
 
+  .navbar-links li:hover {
+    background-color: #444;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  /* Hero Styles */
+  .hero-title {
+    font-size: clamp(
+      2.5rem,
+      8vw,
+      6rem
+    ); /* Adjust font size for smaller screens */
+  }
+
+  .hero-subtitle {
+    font-size: clamp(
+      1.8rem,
+      4vw,
+      3.5rem
+    ); 
+  }
+
+  /* About */
+  .about-info .about-title {
+    padding-top: 5rem; 
+  }
+
+  .about-info .about-info-content {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .about-info .about-info-content .about-paragraphs {
+    width: 100%; 
+  }
+
+  .about-info .about-info-content figure {
+    margin-bottom: 20px; 
+  }
+
+  /* Skills */
+  .skills .skills-title {
+    padding-top: 5rem; 
+  }
+
+  .skills .skill-icons figure {
+    flex-basis: 45%; 
+  }
+
+  /* Footer */
+
+  #footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 20px;
+    background-color: #28a745;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footer .footer-social-icons {
+    display: flex;
+  }
+  
+  #footer i {
+    color: #fff;
+    margin: 20px;
+    transition: transform 0.15s;
+  }
+  
+  #footer i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  #footer .footer-social-icons i:active {
+    opacity: 0.8;
+  }
 }

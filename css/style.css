@@ -170,18 +170,19 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   text-align: center;
-  margin: 20px;
+  padding: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 1100px;
+  min-width: 100%;
 }
 
 .hero-title {
   font-size: clamp(3rem, 10vw, 7rem);
-  line-height: 7rem;
+  line-height: 5rem;
 }
 
 .hero-subtitle {
@@ -189,16 +190,70 @@ p {
   font-size: clamp(2rem, 4vw, 4.5rem);
 }
 
+/* About */
+
+#about {
+  min-height: 100vh;
+}
+
+.about-info {
+  padding: 30px;
+  padding-bottom: 5rem;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50%;
+}
+
+.about-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-info .about-title {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px #31c654;
+  width: max-content;
+  padding-top: 10rem;
+}
+
+.about-info .about-info-content {
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+}
+
+.about-info .about-info-content .about-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.about-info .about-info-content figure {
+  max-width: 300px;
+}
+
+.about-info .about-info-content .profile-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Skills */
 
 .skills {
   padding: 30px;
-  margin-bottom: 5rem;
+  padding-bottom: 15rem;
   background-color: #111;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50%;
 }
 
 .skills .skills-title-container {
@@ -213,6 +268,15 @@ p {
   text-align: center;
   box-shadow: inset 0px -3px 0px 0px #31c654;
   width: max-content;
+  padding-top: 10rem;
+}
+
+.skills .skill-icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .skills figure {
@@ -265,21 +329,13 @@ p {
   color: #fff;
 }
 
-.skills .skill-icons {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 /* Footer */
 
 #footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 0 20px;
   background-color: #28a745;
@@ -292,12 +348,11 @@ p {
 #footer i {
   color: #fff;
   margin: 20px;
-
   transition: transform 0.15s;
 }
 
 #footer i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: pointer;
 }
 

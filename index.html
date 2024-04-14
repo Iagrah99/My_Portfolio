@@ -1,122 +1,169 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ian Graham | Junior Software Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/3e14ba6b53.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ian Graham | Junior Software Developer</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css" />
-  <script src="https://kit.fontawesome.com/3e14ba6b53.js" crossorigin="anonymous"></script>
-  <script src="script.js" defer></script>
-</head>
+  <body id="home">
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo">&nbsp;</div>
 
-<body id="home">
-  <header class="hero">
-    <nav class="navbar">
-      <div class="logo">
-        <img src="./img/icons/mode.png" width="256" height="256" alt="Colour Theme Toggle">
-      </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
 
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#about"> About </a></li>
 
-      <div class="navbar-links">
-        <ul>
-          <li><a href="#about"> About </a></li>
+            <li><a href="#projects">Projects</a></li>
 
-          <li><a href="#projects">Projects</a></li>
-
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <section class="hero-content">
-      <h1 class="hero-title">Hi, I'm Ian Graham</h1>
-
-      <h2 class="hero-subtitle">Junior Software Developer</h2>
-
-      <a class="btn" href="#about">About Me</a>
-    </section>
-  </header>
-
-  <main class="main-content">
-    <section id="about" class="skills bg-light">
-      <div class="wrapper">
-        <div class="skills-title-container">
-          <h2 class="skills-title">My Skills</h2>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </nav>
 
-        <div class="skill-icons">
-          <figure>
-            <i class="fa-brands fa-html5 fa-10x" title="HTML5"></i>
-            <figcaption>HTML5</figcaption>
-          </figure>
+      <section class="hero-content">
+        <h1 class="hero-title">Hi, I'm Ian Graham</h1>
 
-          <figure>
-            <i class="fa-brands fa-css3-alt fa-10x" title="CSS"></i>
-            <figcaption>CSS</figcaption>
-          </figure>
+        <h2 class="hero-subtitle">Junior Software Developer</h2>
 
-          <figure>
-            <i class="fa-brands fa-js fa-10x" title="JavaScript"></i>
-            <figcaption>JavaScript</figcaption>
-          </figure>
+        <a class="btn" href="#about">About Me</a>
+      </section>
+    </header>
 
-          <figure>
-            <i class="fa-brands fa-react fa-10x" title="React"></i>
-            <figcaption>React</figcaption>
-          </figure>
+    <main class="main-content">
+      <article id="about">
+        <section class="about-info">
+          <div class="wrapper">
+            <div class="about-title-container">
+              <h2 class="about-title">About Me</h2>
+            </div>
+            <div class="about-info-content">
+              <figure>
+                <img
+                  class="profile-pic"
+                  src="./img/profile_400_400.jpg"
+                  width="400"
+                  height="400"
+                  alt="Ian Graham"
+                />
+              </figure>
+              <div class="about-paragraphs">
+                <p>
+                  Hello, my name is Ian. I'm a Junior Software Developer from
+                  Rossendale, Lancashire in the UK. I currently have experience
+                  in both front-end and back-end Web technologies and am always
+                  actively learning new things.
+                </p>
+                <p>
+                  Recently, I completed the 13-week long Software Engineering
+                  bootcamp at Northcoders which taught me so many skills in such
+                  a short amount of time.
+                </p>
+                <p>
+                  I am now looking for the opportunity to further increase my
+                  knowledge and experience, and am ready to apply myself and
+                  begin a career as a Junior Developer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-          <figure>
-            <i class="fa-brands fa-node fa-10x" title="Node JS"></i>
-            <figcaption>Node JS</figcaption>
-          </figure>
+        <section class="skills">
+          <div class="wrapper">
+            <div class="skills-title-container">
+              <h2 class="skills-title">My Skills</h2>
+            </div>
 
-          <figure>
-            <i class="fa-solid fa-database fa-10x" title="SQL"></i>
-            <figcaption>SQL</figcaption>
-          </figure>
+            <div class="skill-icons">
+              <figure>
+                <i class="fa-brands fa-html5 fa-10x" title="HTML5"></i>
+                <figcaption>HTML5</figcaption>
+              </figure>
 
-          <figure>
-            <i class="fa-brands fa-git-alt fa-10x" title="Git"></i>
-            <figcaption>Git</figcaption>
-          </figure>
+              <figure>
+                <i class="fa-brands fa-css3-alt fa-10x" title="CSS"></i>
+                <figcaption>CSS</figcaption>
+              </figure>
 
-          <figure>
-            <i class="fa-solid fa-mobile-screen-button fa-10x" title="Responsive Design"></i>
-            <figcaption>Responsive Design</figcaption>
-          </figure>
+              <figure>
+                <i class="fa-brands fa-js fa-10x" title="JavaScript"></i>
+                <figcaption>JavaScript</figcaption>
+              </figure>
 
-          <figure>
-            <i class="fa-solid fa-universal-access fa-10x" title="Accessibility"></i>
-            <figcaption>Accessibility</figcaption>
-          </figure>
-        </div>
+              <figure>
+                <i class="fa-brands fa-react fa-10x" title="React"></i>
+                <figcaption>React</figcaption>
+              </figure>
+
+              <figure>
+                <i class="fa-brands fa-node fa-10x" title="Node JS"></i>
+                <figcaption>Node JS</figcaption>
+              </figure>
+
+              <figure>
+                <i class="fa-solid fa-database fa-10x" title="SQL"></i>
+                <figcaption>SQL</figcaption>
+              </figure>
+
+              <figure>
+                <i class="fa-brands fa-git-alt fa-10x" title="Git"></i>
+                <figcaption>Git</figcaption>
+              </figure>
+
+              <figure>
+                <i
+                  class="fa-solid fa-mobile-screen-button fa-10x"
+                  title="Responsive Design"
+                ></i>
+                <figcaption>Responsive Design</figcaption>
+              </figure>
+
+              <figure>
+                <i
+                  class="fa-solid fa-universal-access fa-10x"
+                  title="Accessibility"
+                ></i>
+                <figcaption>Accessibility</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer id="footer">
+      <a href="#home">
+        <i class="fa-solid fa-circle-arrow-up fa-2x" title="Back To Top"></i>
+      </a>
+      <p class="footer-text">Ian Graham &copy; 2024</p>
+
+      <div class="footer-social-icons">
+        <a
+          href="https://www.linkedin.com/in/ian-graham-357649223/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in fa-2x"></i>
+        </a>
+        <a href="https://github.com/Iagrah99" target="_blank">
+          <i class="fa-brands fa-github fa-2x"></i>
+        </a>
       </div>
-    </section>
-  </main>
-
-  <footer id="footer">
-    <a href="#home">
-      <i class="fa-solid fa-circle-arrow-up fa-2x" title="Back To Top"></i>
-    </a>
-    <p class="footer-text">Ian Graham &copy; 2024</p>
-
-    <div class="footer-social-icons">
-      <a href="https://www.linkedin.com/in/ian-graham-357649223/" target="_blank">
-        <i class="fa-brands fa-linkedin-in fa-2x"></i>
-      </a>
-      <a href="https://github.com/Iagrah99" target="_blank">
-        <i class="fa-brands fa-github fa-2x"></i>
-      </a>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
