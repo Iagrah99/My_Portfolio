@@ -1,229 +1,287 @@
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* General Styles */
 
 html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    display: block;
-    height: auto;
+  display: block;
+  height: auto;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-h1, h2, h3 {
-    padding-bottom: 20px;
-    line-height: 4rem;
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+  line-height: 4rem;
 }
 
 h1 {
-    font-size: 3.4rem;
+  font-size: 3.4rem;
 }
 
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h3 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    margin: 10px 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 10px 0;
 }
 
 /* Utilities */
 
 .btn {
-    padding: 15px 30px;
-    font-size: 2rem;
-    border-radius: 5px;
-    border: 1px solid #28a745;
-    color: #fff;
+  padding: 15px 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  color: #fff;
 
-    transition: background-color 0.15s, border 0.15s, transform 0.15s;
+  transition: background-color 0.15s, border 0.15s, transform 0.15s;
 }
 
 .btn:hover {
-    background-color: #28a745;
-    border: 1px solid #000;
-}   
+  background-color: #28a745;
+  border: 1px solid #000;
+}
 
 .btn:active {
-    background-color: #31c654;
-    transform: scale(1.1);
+  background-color: #31c654;
+  transform: scale(1.1);
 }
 
 .offscreen {
-    position: relative;
-    left: -10000px;
+  position: relative;
+  left: -10000px;
 }
 
 /* Navbar Styles */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    height: 70px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 70px;
+  width: 100%;
 }
 
 .navbar .logo {
-    font-size: 3rem;
-    margin: 10px;
-    cursor: pointer;
+  font-size: 3rem;
+  margin: 10px;
+  cursor: pointer;
 }
 
 .navbar .logo a {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-links ul {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .navbar-links a {
-    display: block;
-    padding: 20px;
-    font-size: 2rem;
-    color: #fff;
+  display: block;
+  padding: 20px;
+  font-size: 2rem;
+  color: #fff;
 
-    transition: transform 0.15s;
+  transition: transform 0.15s;
 }
 
 .navbar-links a:hover {
-    border-bottom: 1px solid #28a745;
-    transform: scale(1.1);
+  border-bottom: 1px solid #28a745;
+  transform: scale(1.1);
 }
 
 .navbar-links a:active {
-    border-bottom: 2px solid #31c654;
-    
+  border-bottom: 2px solid #31c654;
 }
 
 /* Hamburger Menu */
 
 .toggle-button {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
 
 .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 
 /* Hero Styles */
 
 .hero {
-    min-height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background.jpg') no-repeat center center/cover;
-    color: #fff;
-    position: relative;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/background.jpg') no-repeat center center/cover;
+  color: #fff;
+  position: relative;
 }
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    margin: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero-title {
-    font-size: clamp(3rem, 10vw, 7rem);
+  font-size: clamp(3rem, 10vw, 7rem);
+  line-height: 7rem;
 }
 
 .hero-subtitle {
-    margin: 20px 0;
-    font-size: clamp(2rem, 4vw, 4.5rem);
+  margin: 20px 0;
+  font-size: clamp(2rem, 4vw, 4.5rem);
 }
 
 /* Skills */
 
 .skills {
-    padding: 30px;
+  padding: 30px;
+  margin-bottom: 5rem;
+  background-color: #111;
+}
+
+.skills .skills-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.skills .skills-title {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px #31c654;
+  width: max-content;
 }
 
 .skills i {
-    background-color: #28a745;
-    color: #fff;
-    padding: 1.6rem;
-    font-size: clamp(2rem, 6vw, 8rem);
-    border-radius: 50%;
+  color: #fff;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+.skills i:hover {
+  color: #31c654;
+  transform: scale(1.1);
+}
+
+.skills .fa-html5:hover {
+  color: #e34c26;
+}
+
+.skills .fa-css3-alt:hover {
+  color: #2965f1;
+}
+
+.skills .fa-js:hover {
+  color: #f0db4f;
+}
+
+.skills .fa-react:hover {
+  color: #88dded;
+}
+
+.skills .fa-database:hover {
+  color: #bb22ed;
+}
+
+.skills .fa-git-alt:hover {
+  color: #f1502f;
 }
 
 .skills figcaption {
-    font-size: clamp(2rem, 4vw, 4.5rem);
-    margin-bottom: 15px;
+  font-size: clamp(2rem, 3vw, 4rem);
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.skills .skill-icons {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills .skill-icons > div {
+  padding: 20px;
 }
 
 /* Footer */
 
 #footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 0 20px;
-    background-color: #28a745;
-    color: #fff;
-    height: auto;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 20px;
+  background-color: #28a745;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer .footer-icons i {
-    color: #fff;
-    margin: 20px;
+  color: #fff;
+  margin: 20px;
 
-    transition: transform 0.15s;
+  transition: transform 0.15s;
 }
 
 #footer .footer-icons i:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 #footer .footer-icons i:active {
-    opacity: 0.8;
+  opacity: 0.8;
 }
