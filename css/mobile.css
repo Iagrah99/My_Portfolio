@@ -1,0 +1,42 @@
+@media (max-width: 500px) {
+    .toggle-button {
+        display: flex;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0;
+        height: auto;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-links ul {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links a {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-links a:hover {
+        border: none;
+        width: 100%;
+    }
+
+    .navbar-links li:hover {
+        background-color: #444;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+}
