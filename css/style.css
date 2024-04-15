@@ -19,6 +19,7 @@ body {
 img {
   display: block;
   height: auto;
+  width: 100%;
 }
 
 a {
@@ -67,7 +68,8 @@ p {
   transition: background-color 0.15s, border 0.15s, transform 0.15s;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: #28a745;
   border: 1px solid #000;
   outline: none;
@@ -87,6 +89,21 @@ p {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.section-title-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px #31c654;
+  width: max-content;
+  padding-top: 10rem;
 }
 
 /* Navbar Styles */
@@ -109,10 +126,6 @@ p {
   transition: transform 0.15s;
 }
 
-.navbar .logo img {
-  width: 100%;
-}
-
 .navbar-links ul {
   display: flex;
   text-align: center;
@@ -127,7 +140,8 @@ p {
   transition: transform 0.15s;
 }
 
-.navbar-links a:hover, .navbar-links a:focus {
+.navbar-links a:hover,
+.navbar-links a:focus {
   border-bottom: 1px solid #28a745;
   transform: scale(1.1);
   outline: none;
@@ -205,22 +219,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50%;
-}
-
-.about-title-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.about-info .about-title {
-  color: #fff;
-  font-size: clamp(2rem, 4vw, 4.5rem);
-  text-align: center;
-  box-shadow: inset 0px -3px 0px 0px #31c654;
-  width: max-content;
-  padding-top: 10rem;
 }
 
 .about-info .about-info-content {
@@ -255,7 +253,6 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 50%;
 }
 
 .skills .skills-title-container {
@@ -335,8 +332,9 @@ p {
 /* Projects */
 
 #projects {
-  min-height: 100vh;
+  min-height: 200vh;
   background-color: #111;
+  scroll-margin-top: 15rem;
 }
 
 .projects-showcase {
@@ -349,49 +347,91 @@ p {
   height: 100%;
 }
 
-.projects-showcase .projects-showcase-title-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.projects-showcase .projects-showcase-title {
-  color: #fff;
-  font-size: clamp(2rem, 4vw, 4.5rem);
-  text-align: center;
-  box-shadow: inset 0px -3px 0px 0px #31c654;
-  width: max-content;
-  padding-top: 10rem;
-}
-
 .projects-showcase .nc-news {
   padding: 30px;
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
   background-color: #111;
   color: #fff;
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); */
+  box-shadow: inset 0px -3px 0px 0px #222;
+}
+
+.projects-showcase .nc-news .nc-news-info {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 50%;
+  width: 100%;
+  padding-bottom: 30px;
 }
 
 .projects-showcase .nc-news .project-paragraphs {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  width: 55%;
+  width: 50%;
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  justify-content: center;
+  padding: 1rem;
 }
 
 .projects-showcase .nc-news .nc-news-figure {
-  width: 40%;
+  width: 45%;
+}
+
+.projects-showcase .nc-news .nc-news-figure a:focus {
+  outline: none;
 }
 
 .projects-showcase .nc-news .nc-news-img {
-  width: 100%;
-  height: auto;
+  transition: transform 0.15s;
 }
 
+.projects-showcase .nc-news .nc-news-figure a:focus .nc-news-img,
+.projects-showcase .nc-news .nc-news-img:hover {
+  transform: scale(1.02);
+}
+
+.tech-stack {
+  text-align: center;
+}
+
+.tech-stack h3 {
+  padding-bottom: 5rem;
+}
+
+.project-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.project-icons i {
+  padding-bottom: 10px;
+  transition: transform 0.15s;
+  cursor: pointer;
+}
+
+.project-icons i:hover {
+  transform: scale(1.1);
+}
+
+.project-icons .fa-js:hover {
+  color: #f0db4f;
+}
+
+.project-icons .fa-react:hover {
+  color: #88dded;
+}
+
+.project-icons .fa-html5:hover {
+  color: #e34c26;
+}
+
+.project-icons .fa-css3-alt:hover {
+  color: #0077b5;
+}
+
+.project-icons figcaption {
+  font-size: clamp(1.6rem, 0.5vw, 2rem);
+}
 
 /* Footer */
 
@@ -415,7 +455,8 @@ p {
   transition: transform 0.15s;
 }
 
-#footer a:hover, #footer a:focus {
+#footer a:hover,
+#footer a:focus {
   transform: scale(1.1);
   cursor: pointer;
   outline: none;
@@ -424,7 +465,7 @@ p {
 
 #footer .footer-social-icons a:first-child:focus i {
   transform: scale(1.1);
-  color: #0077B5;
+  color: #0077b5;
 }
 
 #footer .footer-social-icons a:last-child:focus i {

@@ -1,5 +1,4 @@
 @media (max-width: 500px) {
-
   .toggle-button {
     display: flex;
   }
@@ -50,39 +49,37 @@
   }
 
   .hero-subtitle {
-    font-size: clamp(
-      1.8rem,
-      4vw,
-      3.5rem
-    ); 
+    font-size: clamp(1.8rem, 4vw, 3.5rem);
   }
 
   /* About */
   .about-info .about-title {
-    padding-top: 5rem; 
+    padding-top: 5rem;
   }
 
   .about-info .about-info-content {
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
 
   .about-info .about-info-content .about-paragraphs {
-    width: 100%; 
+    width: 100%;
   }
 
   .about-info .about-info-content figure {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   /* Skills */
   .skills .skills-title {
-    padding-top: 5rem; 
+    padding-top: 5rem;
   }
 
   .skills .skill-icons figure {
-    flex-basis: 45%; 
+    flex-basis: 45%;
   }
+
+  /* Projects */
 
   /* Footer */
 
@@ -103,18 +100,18 @@
   #footer .footer-social-icons {
     display: flex;
   }
-  
+
   #footer i {
     color: #fff;
     margin: 20px;
     transition: transform 0.15s;
   }
-  
+
   #footer i:hover {
     transform: scale(1.1);
     cursor: pointer;
   }
-  
+
   #footer .footer-social-icons i:active {
     opacity: 0.8;
   }
