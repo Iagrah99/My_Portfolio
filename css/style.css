@@ -67,9 +67,10 @@ p {
   transition: background-color 0.15s, border 0.15s, transform 0.15s;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   background-color: #28a745;
   border: 1px solid #000;
+  outline: none;
 }
 
 .btn:active {
@@ -126,9 +127,10 @@ p {
   transition: transform 0.15s;
 }
 
-.navbar-links a:hover {
+.navbar-links a:hover, .navbar-links a:focus {
   border-bottom: 1px solid #28a745;
   transform: scale(1.1);
+  outline: none;
 }
 
 .navbar-links a:active {
@@ -293,6 +295,7 @@ p {
 
 .skills i:hover {
   transform: scale(1.1);
+  color: #28a745;
 }
 
 .skills .fa-html5:hover {
@@ -329,6 +332,67 @@ p {
   color: #fff;
 }
 
+/* Projects */
+
+#projects {
+  min-height: 100vh;
+  background-color: #111;
+}
+
+.projects-showcase {
+  background-color: #111;
+  padding: 30px;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.projects-showcase .projects-showcase-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.projects-showcase .projects-showcase-title {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px #31c654;
+  width: max-content;
+  padding-top: 10rem;
+}
+
+.projects-showcase .nc-news {
+  padding: 30px;
+  padding-bottom: 15rem;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 50%;
+}
+
+.projects-showcase .nc-news .project-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 55%;
+}
+
+.projects-showcase .nc-news .nc-news-figure {
+  width: 40%;
+}
+
+.projects-showcase .nc-news .nc-news-img {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Footer */
 
 #footer {
@@ -351,11 +415,27 @@ p {
   transition: transform 0.15s;
 }
 
-#footer i:hover {
+#footer a:hover, #footer a:focus {
   transform: scale(1.1);
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 
-#footer .footer-icons i:active {
+#footer .footer-social-icons a:first-child:focus i {
+  transform: scale(1.1);
+  color: #0077B5;
+}
+
+#footer .footer-social-icons a:last-child:focus i {
+  transform: scale(1.1);
+  color: #222;
+}
+
+#footer .footer-social-icons i:hover {
+  transform: scale(1.1);
+}
+
+#footer .footer-social-icons a:active {
   opacity: 0.8;
 }
