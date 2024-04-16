@@ -1,4 +1,9 @@
 @media (max-width: 500px) {
+
+  .section-title {
+    padding: 1rem;
+  }
+
   .toggle-button {
     display: flex;
   }
@@ -71,15 +76,50 @@
   }
 
   /* Skills */
-  .skills .skills-title {
-    padding-top: 5rem;
+
+  .skills {
+    padding-bottom: 5rem;
   }
 
+
   .skills .skill-icons figure {
-    flex-basis: 45%;
+    flex-basis: 75%;
   }
 
   /* Projects */
+  
+  .project-section {
+    padding: 0;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .project-section .project-info {
+    flex-direction: column;
+  }
+
+  .projects-showcase figure {
+    width: 100%;
+  }
+
+  .projects-showcase .phone-figure {
+    width: 50%;
+  }
+
+  .projects-showcase .project-paragraphs {
+    width: 100%;
+    padding: 0;
+  } 
+
+  .project-links {
+    justify-content: space-evenly;
+  }
+
+  .project-icons figure {
+    flex-basis: 45%;
+    margin: 10px;
+    padding: 10px;
+  }
 
   /* Footer */
 

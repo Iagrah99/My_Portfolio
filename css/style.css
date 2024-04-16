@@ -99,6 +99,10 @@ p {
   left: -10000px;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1100px;
@@ -113,7 +117,7 @@ p {
 
 .section-title {
   color: #fff;
-  font-size: clamp(2rem, 4vw, 4.5rem);
+  font-size: clamp(2rem, 6vw, 4.5rem);
   text-align: center;
   box-shadow: inset 0px -3px 0px 0px #31c654;
   width: max-content;
@@ -332,6 +336,7 @@ p {
 
 .project-section {
   padding: 30px;
+  margin-bottom: 10rem;
   padding-bottom: 10rem;
   background-color: #111;
   color: #fff;
@@ -347,6 +352,11 @@ p {
   justify-content: space-evenly;
   align-items: center;
   /* box-shadow: 1px 1px 15px #222; */
+}
+
+.project-title {
+  text-align: center;
+  font-size: clamp(2rem, 3vw, 4rem);
 }
 
 .projects-showcase .project-paragraphs {
@@ -403,6 +413,7 @@ p {
 .tech-stack h3 {
   padding-bottom: 5rem;
   text-align: center;
+  font-size: clamp(2rem, 3vw, 3.5rem);
 }
 
 .project-icons {
