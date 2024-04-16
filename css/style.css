@@ -24,7 +24,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 li {
@@ -64,8 +64,12 @@ p {
   border-radius: 5px;
   border: 1px solid #28a745;
   color: #fff;
-
   transition: background-color 0.15s, border 0.15s, transform 0.15s;
+}
+
+.btn-small {
+  padding: 15px 20px;
+  font-size: 1.5rem;
 }
 
 .btn:hover,
@@ -78,6 +82,16 @@ p {
 .btn:active {
   background-color: #31c654;
   transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #31c654;
 }
 
 .offscreen {
@@ -104,10 +118,6 @@ p {
   box-shadow: inset 0px -3px 0px 0px #31c654;
   width: max-content;
   padding-top: 10rem;
-}
-
-.project-section {
-  
 }
 
 /* Navbar Styles */
@@ -283,48 +293,19 @@ p {
 }
 
 .skills figure {
-  flex-basis: 30%;
+  flex-basis: 20%;
   margin: 10px;
   padding: 10px;
 }
 
-.skills i {
-  color: #fff;
-  padding: 1.6rem;
+.skills figure img {
+  margin-bottom: 2rem;
   cursor: pointer;
+  transition: transform 0.15s;
 }
 
-.skills i:hover {
-  transform: scale(1.1);
-  color: #28a745;
-}
-
-.skills .fa-html5:hover {
-  color: #e34c26;
-}
-
-.skills .fa-css3-alt:hover {
-  color: #527de0;
-}
-
-.skills .fa-js:hover {
-  color: #f0db4f;
-}
-
-.skills .fa-react:hover {
-  color: #88dded;
-}
-
-.skills .fa-node:hover {
-  color: #68a063;
-}
-
-.skills .fa-database:hover {
-  color: #bb22ed;
-}
-
-.skills .fa-git-alt:hover {
-  color: #f1502f;
+.skills figure img:hover {
+  transform: scale(1.05);
 }
 
 .skills figcaption {
@@ -348,10 +329,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
-.projects-showcase .nc-news {
+.project-section {
   padding: 30px;
   padding-bottom: 10rem;
   background-color: #111;
@@ -360,7 +340,7 @@ p {
   box-shadow: inset 0px -3px 0px 0px #222;
 }
 
-.projects-showcase .nc-news .nc-news-info {
+.project-section .project-info {
   display: flex;
   width: 100%;
   padding-bottom: 10px;
@@ -368,31 +348,41 @@ p {
   /* box-shadow: 1px 1px 15px #222; */
 }
 
-.projects-showcase .nc-news .project-paragraphs {
+.projects-showcase .project-paragraphs {
   display: flex;
   flex-direction: column;
   width: 50%;
   font-size: clamp(1.6rem, 2vw, 2rem);
   justify-content: center;
   padding: 1rem;
+} 
+
+.project-links {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.projects-showcase .nc-news .nc-news-figure {
+.projects-showcase figure {
   width: 45%;
 }
 
-.projects-showcase .nc-news .nc-news-figure a:focus {
+.projects-showcase figure a:focus {
   outline: none;
 }
 
-.projects-showcase .nc-news .nc-news-img {
+.projects-showcase .project-img {
   transition: transform 0.15s;
 }
 
-.projects-showcase .nc-news .nc-news-figure a:focus .nc-news-img,
-.projects-showcase .nc-news .nc-news-img:hover {
+.projects-showcase figure a:focus .project-img,
+.projects-showcase .project-img:hover {
   transform: scale(1.02);
 }
+
+/* Technologies Used */
 
 .tech-stack {
   text-align: center;
@@ -409,30 +399,18 @@ p {
   text-align: center;
 }
 
-.project-icons i {
-  padding-bottom: 10px;
-  transition: transform 0.15s;
+.project-icons figure {
+  flex-basis: 15%;
+}
+
+.project-icons img {
+  margin-bottom: 2rem;
   cursor: pointer;
+  transition: transform 0.15s;
 }
 
-.project-icons i:hover {
-  transform: scale(1.1);
-}
-
-.project-icons .fa-js:hover {
-  color: #f0db4f;
-}
-
-.project-icons .fa-react:hover {
-  color: #88dded;
-}
-
-.project-icons .fa-html5:hover {
-  color: #e34c26;
-}
-
-.project-icons .fa-css3-alt:hover {
-  color: #0077b5;
+.project-icons img:hover {
+  transform: scale(1.05);
 }
 
 .project-icons figcaption {
