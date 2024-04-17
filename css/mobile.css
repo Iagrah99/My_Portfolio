@@ -43,14 +43,13 @@
 
   .navbar-links.active {
     display: flex;
-    height: auto;
   }
 
   /* Hero Styles */
 
-  .hero-content.push {
+  /* .hero-content.push {
     margin-top: 2rem;
-  }
+  } */
 
   .hero-title {
     margin-top: 5rem;
@@ -64,6 +63,7 @@
   .hero-content .btn {
     padding: 1rem 2rem;
     font-size: 1.5rem;
+    margin-bottom: 3.5rem;
   }
 
   /* About */
