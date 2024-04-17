@@ -123,10 +123,18 @@
     justify-content: space-evenly;
   }
 
+  .project-links .btn {
+    padding: 1rem 1.5rem;
+  }
+
   .project-icons figure {
-    flex-basis: 35%;
+    flex-basis: 40%;
     margin: 10px;
     padding: 10px;
+  }
+
+  .project-icons img {
+    width: 100%;
   }
 
   .project-icons figure:nth-child(2) {
