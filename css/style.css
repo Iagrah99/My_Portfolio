@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #111;
 }
 
 img {
@@ -60,11 +61,13 @@ p {
 
 .btn {
   padding: 15px 30px;
+  cursor: pointer;
   font-size: 2rem;
   border-radius: 5px;
   border: 1px solid #28a745;
   color: #fff;
   transition: background-color 0.15s, border 0.15s, transform 0.15s;
+  background: transparent;
 }
 
 .btn-small {
@@ -179,7 +182,7 @@ p {
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../img/background.jpg') no-repeat center center/cover;
+    url("../img/background.jpg") no-repeat center center/cover;
   color: #fff;
   position: relative;
 }
@@ -235,6 +238,7 @@ p {
 
 .about-info .about-info-content figure {
   max-width: 300px;
+  padding-right: 2rem;
 }
 
 .about-info .about-info-content .profile-pic {
@@ -303,7 +307,6 @@ p {
 
 #projects {
   background-color: #111;
-  margin-bottom: 5rem;
 }
 
 .projects-showcase {
@@ -347,7 +350,7 @@ p {
   font-size: clamp(1.6rem, 2vw, 2rem);
   justify-content: center;
   padding: 1rem;
-} 
+}
 
 .project-links {
   padding-top: 1rem;
@@ -422,6 +425,67 @@ p {
 }
 
 .project-icons figcaption {
+  font-size: clamp(1.6rem, 0.5vw, 2rem);
+}
+
+/* Contact */
+
+#contact {
+  background-color: #111;
+  margin-bottom: 30rem;
+}
+
+.contact-section {
+  background-color: #111;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  box-shadow: 1px 1px 5px #222;
+}
+
+.contact-form .form-group {
+  margin: 3rem 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.contact-form textarea {
+  height: 10rem;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #31c654;
+}
+
+.contact-form label {
+  display: block;
+  color: #fff;
   font-size: clamp(1.6rem, 0.5vw, 2rem);
 }
 

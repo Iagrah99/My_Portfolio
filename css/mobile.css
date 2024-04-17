@@ -133,6 +133,18 @@
     order: 1;
   }
 
+    /* Contact */
+
+    #contact {
+      margin-bottom: 5rem;
+    }
+
+    .contact-form {
+      width: 100%;
+      box-shadow: none;
+      padding: 1rem;
+    }
+
   /* Footer */
 
   #footer {
@@ -217,9 +229,6 @@
   }
 
   /* About */
-  .about-info .about-title {
-    padding-top: 5rem;
-  }
 
   .about-info .about-info-content {
     flex-direction: column;
@@ -237,12 +246,15 @@
   /* Skills */
 
   .skills {
+    padding: 1rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
 
   .skills .skill-icons figure {
-    flex-basis: 75%;
+    flex-basis: 35%;
+    padding: 3rem;
   }
 
   /* Projects */
@@ -279,16 +291,38 @@
   }
 
   .project-icons figure {
-    flex-basis: 45%;
+    flex-basis: 35%;
     margin: 10px;
-    padding: 10px;
+    padding: 3rem;
+  }
+
+  .project-icons figure:nth-child(2) {
+    order: 1;
+  }
+
+  /* Contact */
+
+  #contact {
+    margin-bottom: 5rem;
+  }
+
+  .contact-section {
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+    max-width: 600px;
+  }
+
+  .contact-form {
+    width: 100%;
+    box-shadow: none;
+    padding: 1rem;
   }
 
   /* Footer */
 
   #footer {
     position: static;
-    padding: 0;
+    padding: 1rem 0;
     justify-content: space-between;
   }
 
