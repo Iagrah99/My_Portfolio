@@ -85,7 +85,9 @@
 
   .skills .skill-icons figure {
     flex-basis: 35%;
+    padding: 0.5rem;
   }
+  
 
   /* Projects */
 
