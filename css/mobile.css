@@ -13,6 +13,7 @@
     background-color: rgba(0, 0, 0, 1);
     padding: 0;
     height: auto;
+    z-index: 1;
   }
 
   .navbar-links {
@@ -42,6 +43,7 @@
 
   .navbar-links.active {
     display: flex;
+    height: auto;
   }
 
   /* Hero Styles */
@@ -50,13 +52,22 @@
     margin-top: 7.5rem;
   }
 
+  .hero-content.push {
+    margin-top: 5rem;
+  }
+
   .hero-title {
     margin-top: 5rem;
     font-size: 2.5rem;
   }
 
   .hero-subtitle {
-    font-size: clamp(2rem, 5.5vw, 3.5rem);
+    font-size: 2rem;
+  }
+
+  .hero-content .btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
   }
 
   /* About */
