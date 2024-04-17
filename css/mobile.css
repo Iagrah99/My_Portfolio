@@ -49,13 +49,13 @@
     margin-top: 5rem;
     font-size: clamp(
       2.5rem,
-      10vw,
+      8vw,
       5rem
     ); /* Adjust font size for smaller screens */
   }
 
   .hero-subtitle {
-    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-size: clamp(2rem, 5.5vw, 3.5rem);
   }
 
   /* About */
