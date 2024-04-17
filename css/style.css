@@ -109,21 +109,6 @@ p {
   margin: 0 auto;
 }
 
-.section-title-div {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.section-title {
-  color: #fff;
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  text-align: center;
-  box-shadow: inset 0px -3px 0px 0px #31c654;
-  width: max-content;
-  padding-top: 10rem;
-}
-
 /* Navbar Styles */
 
 .navbar {
@@ -269,15 +254,15 @@ p {
   align-items: center;
 }
 
-.skills .skills-title-container {
+.section-title-div {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.skills .skills-title {
+.section-title {
   color: #fff;
-  font-size: clamp(2rem, 4vw, 4.5rem);
+  font-size: clamp(2rem, 6vw, 4.5rem);
   text-align: center;
   box-shadow: inset 0px -3px 0px 0px #31c654;
   width: max-content;
