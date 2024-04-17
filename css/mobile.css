@@ -133,6 +133,10 @@
     padding: 10px;
   }
 
+  .project-icons figure figcaption {
+    font-size: 1.2rem;
+  }
+
   .project-icons img {
     width: 100%;
   }
