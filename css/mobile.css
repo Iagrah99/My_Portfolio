@@ -48,12 +48,8 @@
 
   /* Hero Styles */
 
-  .hero-content {
-    margin-top: 7.5rem;
-  }
-
   .hero-content.push {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .hero-title {
