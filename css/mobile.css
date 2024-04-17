@@ -10,7 +10,7 @@
 
   .navbar {
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     padding: 0;
     height: auto;
   }
@@ -47,11 +47,7 @@
   /* Hero Styles */
   .hero-title {
     margin-top: 5rem;
-    font-size: clamp(
-      2.5rem,
-      8vw,
-      5rem
-    ); /* Adjust font size for smaller screens */
+    font-size: 2.5rem;
   }
 
   .hero-subtitle {
@@ -124,7 +120,8 @@
   }
 
   .project-links .btn {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
   }
 
   .project-icons figure {
@@ -163,6 +160,7 @@
     position: static;
     padding: 0;
     justify-content: space-between;
+    font-size: 1rem;
   }
 
   #footer i {
