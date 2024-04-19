@@ -489,6 +489,29 @@ p {
   font-size: clamp(1.6rem, 0.5vw, 2rem);
 }
 
+.contact-section h3 {
+  margin: 4rem 0 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: clamp(1.6rem, 0.5vw, 2rem);
+}
+
+.social-icons a:hover i {
+  color: #0077b5;
+}
+
 /* Footer */
 
 #footer {
