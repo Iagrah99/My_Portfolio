@@ -362,7 +362,8 @@ p {
 }
 
 .projects-showcase figure {
-  width: 50%;
+  width: 45%;
+  padding: 2rem;
 }
 
 .projects-showcase figure a:focus {
