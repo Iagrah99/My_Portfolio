@@ -24,10 +24,10 @@ export const skills = [
     titleText: 'React Native',
   },
   {
-    name: 'PostGreSQL',
+    name: 'PostgreSQL',
     image: './img/icons/postgresql-icon.png',
-    altText: 'PostGreSQL Logo',
-    titleText: 'PostGreSQL',
+    altText: 'PostgreSQL Logo',
+    titleText: 'PostgreSQL',
   },
   {
     name: 'Express JS',
