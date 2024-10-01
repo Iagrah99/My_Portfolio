@@ -152,7 +152,7 @@ export const projects = [
     },
     figc: 'Pawfect Events Fullstack Website Application',
     paragraphs: {
-      p1: 'Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. The app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.',
+      p1: 'Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.',
       p2: "Whether it's a dog-walking meetup, a dog agility competition, or a dog training workshop, Pawfect Events allows users to explore different types of events tailored to their interests.",
     },
     links: {
