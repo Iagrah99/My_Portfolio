@@ -6,6 +6,6 @@ Welcome to my personal portfolio project. This was created to showcase my experi
 
 ## Hosted Live Version
 
-This version is hosted using the website hosting service, <a href="https://pages.github.com/">GitHub Pages</a>.
+This version is hosted using the website hosting service, <a href="https://vercel.com">Vercel</a>.
 
-This version can be found <a href="https://iagrah99.github.io/My_Portfolio/" target="_blank">here</a>.
+This version can be found <a href="https://ig-portfolio.vercel.app/" target="_blank">here</a>.
