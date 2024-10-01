@@ -104,7 +104,7 @@ export const projects = [
     },
     links: {
       live: 'https://www.youtube.com/watch?v=cWCqloX4GWYi',
-      source: 'https://github.com/Iagrah99/nc-be-project',
+      source: 'https://github.com/lvl7wizard/PlantPal',
     },
     techStack: [
       {
@@ -129,6 +129,59 @@ export const projects = [
           src: './img/icons/React-Native-Logo.png',
           alt: 'React Native Logo',
           title: 'React Native',
+        },
+      },
+      {
+        name: 'Node JS',
+        image: {
+          src: './img/icons/Node-Js-Logo.png',
+          alt: 'Node JS Logo',
+          title: 'Node JS',
+        },
+      },
+    ],
+  },
+
+  {
+    title: 'Pawfect Events <span class="nowrap"> (Solo Project) </span>',
+    image: {
+      src: './img/pawfect-events-mockup.png',
+      width: 2135,
+      height: 1457,
+      alt: 'Pawfect Events Homepage Screenshot',
+    },
+    figc: 'Pawfect Events Fullstack Website Application',
+    paragraphs: {
+      p1: 'Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. The app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.',
+      p2: "Whether it's a dog-walking meetup, a dog agility competition, or a dog training workshop, Pawfect Events allows users to explore different types of events tailored to their interests.",
+    },
+    links: {
+      live: 'https://pawfect-events.vercel.app/',
+      source: 'https://github.com/Iagrah99/pawfect-events',
+    },
+    techStack: [
+      {
+        name: 'PostgreSQL',
+        image: {
+          src: './img/icons/postgresql-icon.png',
+          alt: 'PostgreSQL Logo',
+          title: 'PostgreSQL',
+        },
+      },
+      {
+        name: 'Express JS',
+        image: {
+          src: './img/icons/Express_Logo.png',
+          alt: 'Express JS Logo',
+          title: 'Express JS',
+        },
+      },
+      {
+        name: 'React',
+        image: {
+          src: './img/icons/React-logo.png',
+          alt: 'React Logo',
+          title: 'React',
         },
       },
       {

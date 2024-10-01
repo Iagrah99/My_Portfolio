@@ -48,6 +48,12 @@ export const skills = [
     titleText: 'Node JS',
   },
   {
+    name: 'Tailwind CSS',
+    image: './img/icons/Tailwind-CSS-Logo.png',
+    altText: 'Tailwind CSS Logo',
+    titleText: 'Tailwind CSS',
+  },
+  {
     name: 'Git',
     image: './img/icons/Git-Logo.png',
     altText: 'Git Logo',
@@ -60,15 +66,15 @@ export const skills = [
     titleText: 'Responsive Design',
   },
   {
-    name: 'Testing Logo',
+    name: 'Testing',
     image: './img/icons/Testing-logo.png',
     altText: 'Testing Logo Image',
     titleText: 'Testing Logo',
   },
-  {
-    name: 'Accessibility Logo',
-    image: './img/icons/Accessibility_logo.png',
-    altText: 'Accessibility Logo Image',
-    titleText: 'Accessibility Logo',
-  },
+  // {
+  //   name: 'Accessibility',
+  //   image: './img/icons/Accessibility_logo.png',
+  //   altText: 'Accessibility Logo Image',
+  //   titleText: 'Accessibility Logo',
+  // },
 ];
