@@ -245,6 +245,8 @@ p {
   width: 100%;
   height: auto;
   display: block;
+  border: 2px solid #31c654;
+  border-radius: 50%;
 }
 
 /* Skills */
