@@ -85,7 +85,7 @@ function renderProjectInfo(project) {
           project.links.live
         }" target="_blank"
           title="View Live Version">${
-            project.title.includes('PlantPal') ? 'App Demo' : 'Live Version'
+            project.title.includes('Mobile') ? 'App Demo' : 'Live Version'
           }</a>
         <a class="btn btn-small nowrap" href="${
           project.links.source
