@@ -247,4 +247,57 @@ export const projects = [
       },
     ],
   },
+
+  {
+    title: 'FoodLogPro Mobile <span class="nowrap"> (Solo Project) </span>',
+    image: {
+      src: "./img/flp-phone-mockup-2.png",
+      width: 201,
+      height: 427,
+      alt: "FoodLogPro Mobile Meals Screen",
+    },
+    figc: "FoodLogPro Fullstack Mobile Application",
+    paragraphs: {
+      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the FoodLogPro website to mobile users.",
+      p2: "Developed with React Native, Expo, and NativeWind, the app enables users to log, edit, and delete their meals efficiently. The app also features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
+    },
+    links: {
+      live: "https://www.youtube.com/watch?v=cYTlQAdOflk",
+      source: "https://github.com/Iagrah99/flp-app",
+    },
+    techStack: [
+      {
+        name: "PostgreSQL",
+        image: {
+          src: "./img/icons/postgresql-icon.png",
+          alt: "PostgreSQL Logo",
+          title: "PostgreSQL",
+        },
+      },
+      {
+        name: "Express JS",
+        image: {
+          src: "./img/icons/Express_Logo.png",
+          alt: "Express JS Logo",
+          title: "Express JS",
+        },
+      },
+      {
+        name: "React Native",
+        image: {
+          src: "./img/icons/React-Native-Logo.png",
+          alt: "React Native Logo",
+          title: "React Native",
+        },
+      },
+      {
+        name: "Node JS",
+        image: {
+          src: "./img/icons/Node-Js-Logo.png",
+          alt: "Node JS Logo",
+          title: "Node JS",
+        },
+      },
+    ],
+  },
 ];

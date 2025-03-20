@@ -61,7 +61,7 @@ function renderProjectTitle(project) {
 
 function renderProjectInfo(project) {
   return `
-    <figure ${project.title.includes('PlantPal') ? 'class=phone-figure' : ''}>
+    <figure ${project.title.includes('Mobile') ? 'class=phone-figure' : ''}>
         <a href="${project.links.live}" target="_blank">
           <img class="project-img" src="${project.image.src}" alt="${
     project.image.alt
