@@ -291,7 +291,7 @@ p {
 
 .skills figure img {
   margin-bottom: 2rem;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: transform 0.15s;
 }
 
@@ -419,7 +419,7 @@ p {
 
 .project-icons img {
   margin-bottom: 2rem;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: transform 0.15s;
 }
 
