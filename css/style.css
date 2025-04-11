@@ -227,18 +227,19 @@ p {
   display: flex;
   color: #fff;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .about-info .about-info-content .about-paragraphs {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 50%;
+  width: 70%;
 }
 
 .about-info .about-info-content figure {
-  max-width: 300px;
-  padding-right: 2rem;
+  max-width: 500px;
+  padding-right: 10rem;
 }
 
 .about-info .about-info-content .profile-pic {
