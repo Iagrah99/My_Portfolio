@@ -64,6 +64,7 @@
   }
 
   /* About */
+
   .about-info .about-title {
     padding-top: 5rem;
   }
@@ -79,6 +80,8 @@
 
   .about-info .about-info-content figure {
     margin-bottom: 20px;
+    padding: 0;
+    width: 50%;
   }
 
   .about-info .about-info-content .profile-pic {
