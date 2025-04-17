@@ -120,7 +120,8 @@ p {
   padding: 0 20px;
   height: 70px;
   width: 100%;
-  animation: fade-in 2s 0.5s ease-out forwards;
+  animation: fade-in 2s 6s ease-out forwards;
+  opacity: 0;
 }
 
 @keyframes fade-in {
