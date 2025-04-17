@@ -97,6 +97,10 @@ p {
   border: 1px solid #31c654;
 }
 
+.scrolled {
+  background-color: #28a745;
+}
+
 .offscreen {
   position: relative;
   left: -10000px;
@@ -576,11 +580,16 @@ p {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 0 20px;
-  background-color: #28a745;
   color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
+  opacity: 0;
+  animation: fade-in 2s 6s ease-out forwards;
+}
+
+.page-footer {
+  transition: background-color 0.5s ease;
 }
 
 #footer i {

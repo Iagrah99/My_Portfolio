@@ -4,10 +4,19 @@ import { projects } from './projects.js';
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 const heroContent = document.getElementsByClassName('hero-content')[0];
+const footer = document.querySelector('.page-footer');
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
   heroContent.classList.toggle('pushed');
+});
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    footer.classList.add('scrolled');
+  } else {
+    footer.classList.remove('scrolled');
+  }
 });
 
 function renderSkills() {
