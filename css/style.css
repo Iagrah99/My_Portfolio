@@ -120,6 +120,16 @@ p {
   padding: 0 20px;
   height: 70px;
   width: 100%;
+  animation: fade-in 2s 0.5s ease-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .navbar .logo {
@@ -128,8 +138,6 @@ p {
   cursor: pointer;
   background-color: transparent;
   width: 50px;
-
-  transition: transform 0.15s;
 }
 
 .navbar-links ul {
@@ -205,12 +213,54 @@ p {
 .hero-title {
   font-size: clamp(3rem, 10vw, 7rem);
   line-height: 5rem;
+  animation: fade-in 2s 0.5s ease-out forwards;
+  opacity: 0;
 }
 
 .hero-subtitle {
   margin: 20px 0;
   font-size: clamp(2rem, 4vw, 4.5rem);
+  animation: fade-in 2s 2s ease-out forwards;
+  opacity: 0;
 }
+
+.hero-btn {
+  animation:
+    slide-in-move 2s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    slide-in-fade 3s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    border-fade-in 1s 5s cubic-bezier(0.66, 0, 0.34, 1) forwards;
+  border: 1px solid transparent;
+  opacity: 0;
+}
+
+@keyframes slide-in-move {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slide-in-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes border-fade-in {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #28a745;
+    transform: scale(1.1);
+  }
+}
+
 
 /* About */
 
