@@ -15,6 +15,7 @@ window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
     footer.classList.add('scrolled-down');
     footer.classList.remove('scrolled-top')
+    footer.classList.remove("page-footer")
   } else {
     footer.classList.remove('scrolled-down');
     footer.classList.add('scrolled-top')

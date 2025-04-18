@@ -131,7 +131,7 @@ p {
   padding: 0 20px;
   height: 70px;
   width: 100%;
-  animation: fade-in 2s 6s ease-out forwards;
+  animation: fade-in 1s 4s ease-out forwards;
   opacity: 0;
 }
 
@@ -223,24 +223,41 @@ p {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 10vw, 7rem);
+  font-size: clamp(3rem, 10vw, 5rem);
   line-height: 5rem;
-  animation: fade-in 2s 0.5s ease-out forwards;
+  animation: fade-in 1.5s 0.5s ease-out forwards;
   opacity: 0;
 }
+
+.hero-title .wave {
+  display: inline-block; 
+  animation: hand-wave 1s 0.5s ease-out forwards 2;
+  transform-origin: 70% 70%;
+}
+
+@keyframes hand-wave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  45% { transform: rotate(14deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
 
 .hero-subtitle {
   margin: 20px 0;
   font-size: clamp(2rem, 4vw, 4.5rem);
-  animation: fade-in 2s 2s ease-out forwards;
+  animation: fade-in 1.5s 1s ease-out forwards;
   opacity: 0;
 }
 
 .hero-btn {
   animation:
-    slide-in-move 2s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards,
-    slide-in-fade 3s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards,
-    border-fade-in 1s 5s cubic-bezier(0.66, 0, 0.34, 1) forwards;
+    slide-in-move 2s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    slide-in-fade 3s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    border-fade-in 1s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards;
   border: 1px solid transparent;
   opacity: 0;
 }
@@ -592,10 +609,11 @@ p {
   bottom: 0;
   width: 100%;
   opacity: 0;
+  transition: background-color 0.5s ease;
 }
 
 .page-footer {
-  transition: background-color 0.5s ease;
+  animation: fade-in 1s 4s ease-out forwards;
 }
 
 #footer i {
