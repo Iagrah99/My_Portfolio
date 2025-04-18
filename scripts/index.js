@@ -73,12 +73,12 @@ function renderProjectTitle(project) {
 
 function renderProjectInfo(project) {
   return `
-    <figure ${project.title.includes('Mobile') ? 'class=phone-figure' : ''}>
+    <figure ${project.title.includes('App') ? 'class=phone-figure' : ''}>
         <a href="${project.links.live}" target="_blank">
-          <img class="project-img" src="${project.image.src}" alt="${
-    project.image.alt
+          <img class="project-img" src="${project.image[0].src}" alt="${
+    project.image[0].alt
   }"
-            width="${project.image.width}" height="${project.image.height}" />
+            width="${project.image[0].width}" height="${project.image[0].height}" />
         </a>
         <figcaption class="offscreen">${project.fig}</figcaption>
     </figure>
@@ -129,5 +129,16 @@ function renderTechStack(project) {
   return projectTechStack;
 }
 
+function alternateProjectImage() {
+  setInterval(() => {
+    projects.forEach(project => {
+      if (project.title.includes("Dinner Diary Website")) {
+        
+      }
+    })
+  }, 5000);
+}
+
 renderProjects();
 renderSkills();
+alternateProjectImage()

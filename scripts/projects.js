@@ -1,13 +1,15 @@
 export const projects = [
   {
-    title: 'NC News Web App <span class="nowrap"> (Solo Project) </span>',
-    image: {
+    title: 'NC News Website <span class="nowrap"> (Solo Project) </span>',
+    image: [
+      {
       src: "./img/nc-news-laptop-mockup.png",
       width: 1979,
       height: 1350,
-      alt: "NC News App Homepage Screenshot",
-    },
-    figc: "NC News App",
+      alt: "NC News Website Homepage Screenshot",
+    }
+  ],
+    figc: "NC News Website",
     paragraphs: {
       p1: "A News App which allows the user to perform actions such as browsing different articles, filtering them by topic, sort them by date, comment count, or votes.",
       p2: "They can order in ascending or descending order. Clicking on an article leads to its full view. Users can upvote/downvote, post/delete comments (if they are the author), and sign in as predefined users.",
@@ -46,12 +48,14 @@ export const projects = [
 
   {
     title: 'NC News API Server <span class="nowrap"> (Solo Project) </span>',
-    image: {
+    image: [
+      {
       src: "./img/api-laptop-mockup.png",
       width: 450,
       height: 353,
       alt: "NC News API Screenshot",
-    },
+    }
+  ],
     figc: "NC News API Server",
     paragraphs: {
       p1: " A backend REST Server API, which is consumed by the NC News Web App. It implements CRUD operations through HTTP requests to interact with a PostgreSQL database, which utilises queries that are tailored for specific endpoints.",
@@ -91,12 +95,14 @@ export const projects = [
 
   {
     title: 'PlantPal Mobile App <span class="nowrap"> (Group Project) </span>',
-    image: {
+    image: [
+      {
       src: "./img/plantpal-phone-mockup.png",
       width: 201,
       height: 427,
       alt: "Plant Pal Sign Up Page Screenshot",
-    },
+    }
+  ],
     figc: "PlantPal Mobile App",
     paragraphs: {
       p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way.",
@@ -143,13 +149,15 @@ export const projects = [
   },
 
   {
-    title: 'Pawfect Events <span class="nowrap"> (Solo Project) </span>',
-    image: {
+    title: 'Pawfect Events Website <span class="nowrap"> (Solo Project) </span>',
+    image: [
+      {
       src: "./img/pawfect-events-mockup.png",
       width: 2135,
       height: 1457,
       alt: "Pawfect Events Homepage Screenshot",
-    },
+    }
+  ],
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
       p1: "Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.",
@@ -196,21 +204,29 @@ export const projects = [
   },
 
   {
-    title: 'FoodLogPro <span class="nowrap"> (Solo Project) </span>',
-    image: {
-      src: "./img/foodlogpro-mockup.png",
-      width: 666,
-      height: 375,
-      alt: "FoodLogPro Homepage Screenshot",
-    },
-    figc: "FoodLogPro Fullstack Website Application",
+    title: 'Dinner Diary Website <span class="nowrap"> (Solo Project) </span>',
+    image: [
+      {
+        src: "./img/dd-home.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary Homepage Screenshot",
+      },
+      {
+        src: "./img/dd-meals.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary Meals Screenshot",
+      },
+    ],
+    figc: "Dinner Diary Fullstack Website Application",
     paragraphs: {
-      p1: "A full-stack web designed for meal tracking, focused on recording dinner records. Built with the PERN stack and styled using Tailwind CSS, the app features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
+      p1: "A full-stack website application designed for meal tracking, focused on recording dinner records. Built with the PERN stack and styled using Tailwind CSS, the app features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
       p2: "This project stems from a personal need to organise family meals and showcases practical, user-focused design and robust backend integration.",
     },
     links: {
-      live: "https://foodlogpro.vercel.app/",
-      source: "https://github.com/Iagrah99/foodlogpro",
+      live: "https://dinnerdiary.vercel.app/",
+      source: "https://github.com/Iagrah99/dinnerdiary",
     },
     techStack: [
       {
@@ -249,16 +265,18 @@ export const projects = [
   },
 
   {
-    title: 'FoodLogPro Mobile <span class="nowrap"> (Solo Project) </span>',
-    image: {
+    title: 'Dinner Diary App <span class="nowrap"> (Solo Project) </span>',
+    image: [
+      {
       src: "./img/flp-phone-mockup-2.png",
       width: 201,
       height: 427,
-      alt: "FoodLogPro Mobile Meals Screen",
-    },
-    figc: "FoodLogPro Fullstack Mobile Application",
+      alt: "Dinner Diary App Meals Screen",
+    }
+  ],
+    figc: "Dinner Diary Fullstack Mobile Application",
     paragraphs: {
-      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the FoodLogPro website to mobile users.",
+      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the Dinner Diary website to mobile users.",
       p2: "Developed with React Native, Expo, and NativeWind, the app enables users to log, edit, and delete their meals efficiently. The app also features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
     },
     links: {
