@@ -5,6 +5,7 @@ const toggleButton = document.getElementsByClassName('toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 const heroContent = document.getElementsByClassName('hero-content')[0];
 const footer = document.querySelector('.page-footer');
+document.addEventListener("DOMContentLoaded", setupImageSwitcher);
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
@@ -75,37 +76,45 @@ function renderProjectInfo(project) {
   return `
     <figure ${project.title.includes('App') ? 'class=phone-figure' : ''}>
         <a href="${project.links.live}" target="_blank">
-          <img class="project-img" src="${project.image[0].src}" alt="${
-    project.image[0].alt
-  }"
-            width="${project.image[0].width}" height="${project.image[0].height}" />
+          <img class="project-img"
+               data-images='${JSON.stringify(project.image)}'
+               src="${project.image[0].src}"
+               alt="${project.image[0].alt}"
+               width="${project.image[0].width}"
+               height="${project.image[0].height}" />
         </a>
         <figcaption class="offscreen">${project.fig}</figcaption>
     </figure>
 
     <div class="project-paragraphs">
-      <p>
-        ${project.paragraphs.p1}
-      </p>
-
-      <p>
-        ${project.paragraphs.p2}
-      </p>
+      <p>${project.paragraphs.p1}</p>
+      <p>${project.paragraphs.p2}</p>
 
       <p class="project-links">
-        <a class="btn btn-small nowrap" href="${
-          project.links.live
-        }" target="_blank"
-          title="View Live Version">${
-            project.title.includes('Mobile') ? 'App Demo' : 'Live Version'
-          }</a>
-        <a class="btn btn-small nowrap" href="${
-          project.links.source
-        }" target="_blank"
+        <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
+          title="View Live Version">
+          ${project.title.includes('Mobile') ? 'App Demo' : 'Live Version'}
+        </a>
+        <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
           title="View Source Code">Source Code</a>
       </p>
     </div>
   `;
+}
+
+function setupImageSwitcher() {
+  const imgElements = document.querySelectorAll(".project-img");
+
+  imgElements.forEach((img) => {
+    const images = JSON.parse(img.dataset.images); // grab array
+    let index = 0;
+
+    setInterval(() => {
+      index = (index + 1) % images.length;
+      img.src = images[index].src;
+      img.alt = images[index].alt;
+    }, 2000);
+  });
 }
 
 function renderTechStack(project) {

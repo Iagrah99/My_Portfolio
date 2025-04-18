@@ -98,7 +98,7 @@ p {
 }
 
 .scrolled-down {
-  background-color: #28a745;
+  background-color: #0e3a18;
   animation: fade-in 0.5s 0s ease-out forwards;
 }
 
@@ -571,23 +571,10 @@ p {
   font-size: clamp(1.6rem, 0.5vw, 2rem);
 }
 
-.contact-section h3 {
-  margin: 4rem 0 2rem;
-  color: #fff;
-  text-align: center;
-}
-
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.social-icons a {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  font-size: clamp(1.6rem, 0.5vw, 2rem);
 }
 
 .social-icons a:hover i {
@@ -629,7 +616,7 @@ p {
   border: none;
 }
 
-#footer .footer-social-icons a:first-child:focus i {
+#footer .footer-social-icons a:first-child:hover i {
   transform: scale(1.1);
   color: #0077b5;
 }

@@ -3,10 +3,28 @@ export const projects = [
     title: 'NC News Website <span class="nowrap"> (Solo Project) </span>',
     image: [
       {
-      src: "./img/nc-news-laptop-mockup.png",
-      width: 1979,
-      height: 1350,
+      src: "./img/nc-articles.png",
+      width: 2085,
+      height: 1440,
+      alt: "NC News Website Articles Screenshot",
+    },
+    {
+      src: "./img/nc-home.png",
+      width: 2085,
+      height: 1440,
       alt: "NC News Website Homepage Screenshot",
+    },
+    {
+      src: "./img/nc-topics.png",
+      width: 2085,
+      height: 1440,
+      alt: "NC News Website Topics Screenshot",
+    },
+    {
+      src: "./img/nc-users.png",
+      width: 2085,
+      height: 1440,
+      alt: "NC News Website Users Screenshot",
     }
   ],
     figc: "NC News Website",
@@ -152,11 +170,29 @@ export const projects = [
     title: 'Pawfect Events Website <span class="nowrap"> (Solo Project) </span>',
     image: [
       {
-      src: "./img/pawfect-events-mockup.png",
-      width: 2135,
-      height: 1457,
+      src: "./img/pe-home.png",
+      width: 2085,
+      height: 1440,
       alt: "Pawfect Events Homepage Screenshot",
-    }
+    },
+    {
+      src: "./img/pe-event.png",
+      width: 2085,
+      height: 1440,
+      alt: "Pawfect Events Event Screenshot",
+    },
+    {
+      src: "./img/pe-create.png",
+      width: 2085,
+      height: 1440,
+      alt: "Pawfect Events Create Event Screenshot",
+    },
+    {
+      src: "./img/pe-organiser.png",
+      width: 2085,
+      height: 1440,
+      alt: "Pawfect Events Create Event Screenshot",
+    },
   ],
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
@@ -217,6 +253,12 @@ export const projects = [
         width: 2085,
         height: 1440,
         alt: "Dinner Diary Meals Screenshot",
+      },
+      {
+        src: "./img/dd-user.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary User Info Screenshot",
       },
     ],
     figc: "Dinner Diary Fullstack Website Application",
