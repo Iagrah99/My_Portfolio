@@ -97,8 +97,15 @@ p {
   border: 1px solid #31c654;
 }
 
-.scrolled {
+.scrolled-down {
   background-color: #28a745;
+  animation: fade-in 0.5s 0s ease-out forwards;
+}
+
+.scrolled-top {
+  background-color: transparent;
+  animation: fade-in 0.5s 0s ease-out forwards;
+  opacity: 1;
 }
 
 .offscreen {
@@ -585,7 +592,6 @@ p {
   bottom: 0;
   width: 100%;
   opacity: 0;
-  animation: fade-in 2s 6s ease-out forwards;
 }
 
 .page-footer {

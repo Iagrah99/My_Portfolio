@@ -13,9 +13,11 @@ toggleButton.addEventListener('click', () => {
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
-    footer.classList.add('scrolled');
+    footer.classList.add('scrolled-down');
+    footer.classList.remove('scrolled-top')
   } else {
-    footer.classList.remove('scrolled');
+    footer.classList.remove('scrolled-down');
+    footer.classList.add('scrolled-top')
   }
 });
 
