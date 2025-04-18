@@ -130,7 +130,7 @@ function renderTechStack(project) {
         alt="${stack.image.alt}"
         title="${stack.image.title}"
       />
-      <figcaption>${stack.name}</figcaption>
+      <figcaption class="nowrap">${stack.name}</figcaption>
     </figure>
     `;
   });
