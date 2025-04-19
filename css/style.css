@@ -362,7 +362,7 @@ p {
   flex-wrap: wrap;
 }
 
-.skills figure {
+.skills .skill-icons figure {
   flex-basis: 20%;
   margin: 10px;
   padding: 3rem;
@@ -442,13 +442,17 @@ p {
 
 .project-title {
   text-align: center;
-  font-size: clamp(2rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 .projects-showcase .project-paragraphs {
   width: 50%;
   padding: 1rem;
   text-align: left;
+}
+
+.projects-showcase .project-paragraphs p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .project-links {

@@ -78,6 +78,10 @@
     width: 100%;
   }
 
+  .about-info .about-info-content .about-paragraphs p {
+    font-size: 1.2rem;
+  }
+
   .about-info .about-info-content figure {
     margin-bottom: 20px;
     padding: 0;
@@ -97,10 +101,20 @@
 
 
   .skills .skill-icons figure {
-    flex-basis: 35%;
-    padding: 0.5rem;
+    flex: 1 1 20%;
+    padding: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .skills figcaption {
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-bottom: 1rem;
+    color: #fff;
   }
   
+  .skills figure img {
+    margin-bottom: 2rem;
+  }
 
   /* Projects */
 
@@ -111,7 +125,7 @@
   .js-projects-container {
     display: grid;
     grid-template-columns: 1fr; /* default: 1 column */
-    gap: 5rem;
+    gap: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
@@ -135,10 +149,11 @@
   .project-section {
     justify-content: space-between;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin-bottom: 0rem;
     width: 100%;
     max-width: 100%;
+    border-top: 1px solid #444;
   }
 
   .project-section .project-info {
@@ -170,9 +185,9 @@
   
   .projects-showcase .phone-figure img {
     width: 100%;
-    height: auto;        /* maintains aspect ratio */
-    max-height: 300px;   /* or whatever works best visually */
-    object-fit: contain; /* ensures no stretching */
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
   }
 
   .projects-showcase .project-paragraphs {

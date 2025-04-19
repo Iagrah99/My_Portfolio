@@ -30,7 +30,7 @@ function renderSkills() {
     skillsHTML += `
      <figure>
       <img src="${skill.image}" width="512" height="512" alt="${skill.altText}" title="${skill.titleText}" />
-      <figcaption>${skill.name}</figcaption>
+      <figcaption class="nowrap">${skill.name}</figcaption>
     </figure>
     `;
   });
