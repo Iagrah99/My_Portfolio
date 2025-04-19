@@ -107,23 +107,72 @@
   #projects {
     margin-bottom: 0;
   }
-  
-  .project-section {
+
+  .js-projects-container {
+    display: grid;
+    grid-template-columns: 1fr; /* default: 1 column */
+    gap: 5rem;
     padding: 0;
-    padding-bottom: 5rem;
-    margin-bottom: 5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .projects-showcase {
+    background-color: #111;
+    padding: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-showcase .wrapper {
+    max-width: 100%;
+    padding: 0 0rem;
+  }
+
+  .project-section {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+    width: 100%;
+    max-width: 100%;
   }
 
   .project-section .project-info {
     flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0;
   }
+
+  .project-title {
+    padding: 0.5rem;
+  }
+
+  .project-section:hover {
+  transform: scale(1);
+}
 
   .projects-showcase figure {
     width: 100%;
   }
 
   .projects-showcase .phone-figure {
-    width: 50%;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .projects-showcase .phone-figure img {
+    width: 100%;
+    height: auto;        /* maintains aspect ratio */
+    max-height: 300px;   /* or whatever works best visually */
+    object-fit: contain; /* ensures no stretching */
   }
 
   .projects-showcase .project-paragraphs {
@@ -132,7 +181,7 @@
   } 
 
   .project-links {
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .project-links .btn {
@@ -140,14 +189,22 @@
     font-size: 1.2rem;
   }
 
+  .project-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
   .project-icons figure {
-    flex-basis: 40%;
-    margin: 10px;
-    padding: 10px;
+    flex: 1 1 120px;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
   }
 
   .project-icons figure figcaption {
-    font-size: 1.2rem;
+    font-size: 85%;
   }
 
   .project-icons img {

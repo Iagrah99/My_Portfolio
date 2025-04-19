@@ -50,7 +50,6 @@ function renderProjects() {
     ${renderProjectInfo(project)}
     </div>
     <div class="tech-stack">
-    <h3>Tech Stack</h3>
 
     <div class="project-icons">
      ${renderTechStack(project)}
@@ -74,6 +73,7 @@ function renderProjectTitle(project) {
 
 function renderProjectInfo(project) {
   return `
+  <div class="project-info ${project.title.includes('App') ? 'compact-layout' : ''}">
     <figure ${project.title.includes('App') ? 'class=phone-figure' : ''}>
         <a href="${project.links.live}" target="_blank">
           <img class="project-img"
@@ -99,6 +99,7 @@ function renderProjectInfo(project) {
           title="View Source Code">Source Code</a>
       </p>
     </div>
+    </div>
   `;
 }
 
@@ -113,7 +114,7 @@ function setupImageSwitcher() {
       index = (index + 1) % images.length;
       img.src = images[index].src;
       img.alt = images[index].alt;
-    }, 2000);
+    }, 5000);
   });
 }
 

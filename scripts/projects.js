@@ -108,6 +108,14 @@ export const projects = [
           title: "Node JS",
         },
       },
+      {
+        name: "Jest",
+        image: {
+          src: "./img/icons/Jest.png",
+          alt: "Jest Logo",
+          title: "Jest",
+        },
+      },
     ],
   },
 
@@ -119,7 +127,19 @@ export const projects = [
       width: 201,
       height: 427,
       alt: "Plant Pal Sign Up Page Screenshot",
-    }
+    },
+    {
+      src: "./img/pp-add-plant.png",
+      width: 949,
+      height: 1920,
+      alt: "Plant Pal Add Plant Page Screenshot",
+    },
+    {
+      src: "./img/pp-plants.png",
+      width: 949,
+      height: 1920,
+      alt: "Plant Pal Plants Page Screenshot",
+    },
   ],
     figc: "PlantPal Mobile App",
     paragraphs: {
@@ -310,11 +330,23 @@ export const projects = [
     title: 'Dinner Diary App <span class="nowrap"> (Solo Project) </span>',
     image: [
       {
-      src: "./img/flp-phone-mockup-2.png",
-      width: 201,
-      height: 427,
+      src: "./img/dd-app-meals.png",
+      width: 1131,
+      height: 2291,
       alt: "Dinner Diary App Meals Screen",
-    }
+    },
+    {
+      src: "./img/dd-app-update-meal.png",
+      width: 949,
+      height: 1920,
+      alt: "Dinner Diary App Update Meal Screen",
+    },
+    {
+      src: "./img/dd-app-meal-info.png",
+      width: 949,
+      height: 1920,
+      alt: "Dinner Diary App Meal Info Screen",
+    },
   ],
     figc: "Dinner Diary Fullstack Mobile Application",
     paragraphs: {
