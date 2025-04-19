@@ -16,6 +16,7 @@
     z-index: 1;
     position: sticky;
     width: 100%;
+   
   }
 
   .navbar-links {
@@ -26,6 +27,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    max-width: 100%;
+    padding-bottom: 10px;
   }
 
   .navbar-links a {
@@ -49,9 +52,13 @@
 
   /* Hero Styles */
 
-  /* .hero-content.push {
-    margin-top: 2rem;
-  } */
+  .hero-content {
+    transition: padding-top 0.3s ease;
+  }
+
+  .hero-content.push {
+    padding-top: 10rem;
+  }
 
   .hero-title {
     font-size: clamp(3rem, 10vw, 7rem);

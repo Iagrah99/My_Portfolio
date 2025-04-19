@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", setupImageSwitcher);
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
-  heroContent.classList.toggle('pushed');
+  heroContent.classList.toggle('push');
 });
 
 window.addEventListener('scroll', () => {
