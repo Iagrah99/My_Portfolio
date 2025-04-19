@@ -35,16 +35,12 @@
     padding: 0.5rem 1rem;
   }
 
-  .navbar-links a:hover {
-    border: none;
-    width: 100%;
-  }
-
-  .navbar-links li:hover {
-    background-color: #444;
-    width: 100%;
-    text-align: center;
-  }
+  .navbar-links a:hover,
+  .navbar-links a:focus {
+  border-bottom: none;
+  transform: none;
+  outline: none;
+}
 
   .navbar-links.active {
     display: flex;
@@ -53,21 +49,38 @@
   /* Hero Styles */
 
   .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     transition: padding-top 0.3s ease;
   }
 
   .hero-content.push {
-    padding-top: 15rem;
+    padding-top: 20rem;
   }
 
   .hero-title {
-    font-size: clamp(3rem, 10vw, 7rem);
+    font-size: 2.5rem;
+    padding: 0;
+  }
+
+  .hero-subtitle {
+    margin: 0;
   }
 
   .hero-content .btn {
     padding: 1rem 2rem;
     font-size: 1.5rem;
     margin-bottom: 3.5rem;
+  }
+
+  .hero-content .btn:hover,
+  .hero-content .btn:active,
+  .hero-content .btn:focus
+  {
+   background-color: transparent;
   }
 
   /* About */
@@ -116,6 +129,10 @@
     margin-bottom: 1rem;
   }
 
+  .skills figure img:hover {
+    transform: none;
+  }
+
   .skills figcaption {
     font-size: clamp(1rem, 3vw, 2rem);
     margin-bottom: 1rem;
@@ -124,6 +141,7 @@
   
   .skills figure img {
     margin-bottom: 2rem;
+    width: 75%;
   }
 
   /* Projects */
@@ -181,7 +199,7 @@
   }
 
   .project-section:hover {
-  transform: scale(1);
+  transform: none;
 }
 
   .projects-showcase figure {
@@ -217,7 +235,7 @@
   .project-icons {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   
   .project-icons figure {
@@ -233,7 +251,7 @@
   }
 
   .project-icons img {
-    width: 100%;
+    width: 80%;
   }
 
   .project-icons figure:nth-child(2) {
@@ -347,7 +365,6 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-
 
   .skills .skill-icons figure {
     flex-basis: 35%;
