@@ -101,7 +101,10 @@
 
 
   .skills .skill-icons figure {
+    display: flex;
     flex: 1 1 20%;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0rem;
     margin-bottom: 1rem;
   }
