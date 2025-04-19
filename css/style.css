@@ -357,21 +357,26 @@ p {
 .skills .skill-icons {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .skills .skill-icons figure {
   flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
-  padding: 3rem;
+  text-align: center;
 }
 
 .skills figure img {
   margin-bottom: 2rem;
   /* cursor: pointer; */
   transition: transform 0.15s;
+  width: 50%;
 }
 
 .skills figure img:hover {
