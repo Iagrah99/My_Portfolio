@@ -258,6 +258,10 @@
     order: 1;
   }
 
+  .tech-stack {
+    padding: 1rem;
+  }
+
     /* Contact */
 
     #contact {
