@@ -945,7 +945,9 @@
   }
 
   .about-info .about-info-content .about-paragraphs p {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    margin-block: 0.5rem;
   }
 
   .about-info .about-info-content figure {
@@ -1073,7 +1075,9 @@
   } 
 
   .projects-showcase .project-paragraphs p {
-    font-size: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    margin-block: 0.5rem;
   }
 
   .project-links {
