@@ -35,10 +35,12 @@
   }
 
   .navbar-links a:hover,
-  .navbar-links a:focus {
-  border-bottom: none;
-  transform: none;
+  .navbar-links a:focus,
+  .navbar-links a:active {
   outline: none;
+  border: none;
+  transform: none;
+  background-color: transparent;
 }
 
   .navbar-links.active {
@@ -337,7 +339,7 @@
   }
 
   .navbar-links li:hover {
-    background-color: #444;
+    background-color: transparent;
     width: 100%;
     text-align: center;
   }
@@ -600,14 +602,16 @@
 
   .navbar-links a:hover {
     border: none;
-    width: 100%;
   }
 
-  .navbar-links li:hover {
-    background-color: #444;
-    width: 100%;
-    text-align: center;
-  }
+  .navbar-links a:hover,
+  .navbar-links a:focus,
+  .navbar-links a:active {
+  outline: none;
+  border: none;
+  transform: none;
+  background-color: transparent;
+}
 
   .navbar-links.active {
     display: flex;
