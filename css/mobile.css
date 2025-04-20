@@ -59,7 +59,7 @@
   }
 
   .hero-content.push {
-    padding-top: 20rem;
+    padding-top: 15rem;
   }
 
   .hero-title {
@@ -945,7 +945,7 @@
   }
 
   .about-info .about-info-content .about-paragraphs p {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .about-info .about-info-content figure {
