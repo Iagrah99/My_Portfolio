@@ -563,7 +563,7 @@ p {
 
 #contact {
   background-color: #111;
-  margin-bottom: 30rem;
+  margin-block-end: 35rem;
 }
 
 .contact-section {

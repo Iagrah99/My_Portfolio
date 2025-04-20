@@ -16,7 +16,6 @@
     z-index: 1;
     position: sticky;
     width: 100%;
-   
   }
 
   .navbar-links {
@@ -838,45 +837,44 @@
   }
 
   .toggle-button {
-    display: flex;
-  }
-
-  .navbar {
-    flex-direction: column;
-    background-color: #000;
-    padding: 0;
-    height: auto;
-    z-index: 1;
-    position: sticky;
-    width: 100%;
-   
-  }
-
-  .navbar-links {
     display: none;
   }
 
-  .navbar-links ul {
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 10px;
-  }
-
-  .navbar-links a {
-    padding: 0.5rem 1rem;
-  }
-
-  .navbar-links a:hover,
-  .navbar-links a:focus {
-  border-bottom: none;
-  transform: none;
-  outline: none;
-}
-
-  .navbar-links.active {
+  .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .navbar .logo {
+    font-size: 3rem;
+    margin: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    width: 50px;
+  }
+
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  
+  .navbar-links a {
+    display: block;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+  
+    transition: transform 0.15s;
   }
 
   /* Hero Styles */
@@ -884,14 +882,14 @@
   .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     transition: padding-top 0.3s ease;
   }
 
   .hero-content.push {
-    padding-top: 25rem;
+    padding-top: 20rem;
   }
 
   .hero-title {
@@ -902,6 +900,7 @@
   .hero-subtitle {
     font-size: 2rem;
     margin: 0;
+    padding-bottom: 2rem;
   }
 
   .hero-content .btn {
