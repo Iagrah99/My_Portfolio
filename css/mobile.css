@@ -63,7 +63,6 @@
   }
 
   .hero-title {
-    font-size: 2.5rem;
     padding: 0;
   }
 
@@ -104,9 +103,10 @@
   }
 
   .about-info .about-info-content figure {
-    margin-bottom: 20px;
+    display: none;
+    /* margin-bottom: 20px;
     padding: 0;
-    width: 50%;
+    width: 50%; */
   }
 
   .about-info .about-info-content .profile-pic {
@@ -1173,5 +1173,114 @@
 
   .footer-social-icons i {
     margin: 0;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1440px) {
+
+  .btn-small {
+    padding: 8px 13px;
+    font-size: 1.2rem;
+  }
+
+  /* Projects */
+
+  #projects {
+    margin-bottom: 0;
+  }
+
+  .js-projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 5rem;
+    padding: 2rem;
+  }
+  
+  .projects-showcase {
+    padding: 10px;
+  }
+
+  .projects-showcase .section-title {
+  }
+
+  .projects-showcase .wrapper {
+    max-width: 90%;
+  }
+
+  .project-section {
+    
+  }
+
+  .project-section .project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    width: 100%;
+    transition: transform 0.2s ease;
+  }
+
+  .project-title {
+  }
+
+  .project-section:hover {
+}
+
+.projects-showcase figure {
+  width: 45%;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.projects-showcase figure img {
+  width: 100%;
+  height: auto;
+}
+
+.projects-showcase figure a:focus {
+  outline: none;
+}
+
+.projects-showcase .phone-figure {
+  width: 20%;
+  padding-block: 2rem;
+}
+
+.projects-showcase .project-img {
+  transition: transform 0.15s;
+}
+
+  .projects-showcase .project-paragraphs {
+  } 
+
+  .projects-showcase .project-paragraphs p {
+    font-size: 1.2rem;
+  }
+
+  .project-links {
+  }
+
+  .project-links .btn {
+  }
+
+  .project-icons {
+  }
+  
+  .project-icons figure {
+    width: 100%;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-icons figure figcaption {
+  }
+
+  .project-icons img {
+  }
+
+  .tech-stack {
   }
 }
