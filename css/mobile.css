@@ -877,6 +877,15 @@
     transition: transform 0.15s;
   }
 
+  .navbar-links a:hover,
+  .navbar-links a:focus,
+  .navbar-links a:active {
+  outline: none;
+  border: none;
+  transform: none;
+  background-color: transparent;
+}
+
   /* Hero Styles */
 
   .hero-content {
