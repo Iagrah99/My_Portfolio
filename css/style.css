@@ -294,6 +294,29 @@ p {
   opacity: 0;
 }
 
+.hero-content .about-arrow {
+  color: #fff;
+  padding-right: 10px;
+  display: inline-block;
+  animation: arrowMove 1.2s 4s ease-in-out infinite;
+  opacity: 0;
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(6px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 @keyframes slide-in-move {
   from {
     transform: translateY(100%);
