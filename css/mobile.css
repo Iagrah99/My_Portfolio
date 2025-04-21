@@ -835,7 +835,7 @@
   }
 }
 
-@media (max-width: 812px) and (orientation: landscape) {
+@media (max-width: 844px) and (orientation: landscape) {
   .section-title {
     padding: 1rem;
   }
@@ -951,13 +951,14 @@
   }
 
   .about-info .about-info-content figure {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding: 0;
-    width: 30%;
+    width: 0;
   }
 
   .about-info .about-info-content .profile-pic {
     border: none;
+    display: none;
   }
 
   /* Skills */

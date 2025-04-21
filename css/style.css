@@ -314,6 +314,12 @@ p {
   width: 50%;
 }
 
+.about-info .about-info-content .about-paragraphs p {
+  font-size: clamp(1rem, 1.25vw, 1.5rem);     /* ~16px–24px */
+  line-height: clamp(1.5rem, 2.25vw, 2.25rem); /* ~24px–36px */
+}
+
+
 .about-info .about-info-content figure {
   max-width: 400px;
   padding-right: 5rem;
@@ -456,7 +462,8 @@ p {
 }
 
 .projects-showcase .project-paragraphs p {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 1.25vw, 1.5rem);     /* ~16px–24px */
+  line-height: clamp(1.5rem, 2.25vw, 2.25rem); /* ~24px–36px */
 }
 
 .project-links {
