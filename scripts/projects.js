@@ -38,11 +38,11 @@ export const projects = [
     },
     techStack: [
       {
-        name: "HTML5",
+        name: "HTML",
         image: {
-          src: "./img/icons/HTML5-Logo.png",
+          src: "./img/icons/HTML5-logo.png",
           alt: "HTML5 Logo",
-          title: "HTML5",
+          title: "HTML",
         },
       },
       {
