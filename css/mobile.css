@@ -89,8 +89,12 @@
 
   /* About */
 
-  .about-info .about-title {
-    padding-top: 5rem;
+  .about-info .section-title-div {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-info .section-title {
+    padding-top: 2rem;
   }
 
   .about-info .about-info-content {
@@ -122,6 +126,10 @@
   .skills {
     padding: 1rem;
     padding-bottom: 5rem;
+  }
+
+  .skills .section-title-div {
+    margin-bottom: 2.5rem;
   }
 
 
@@ -174,6 +182,10 @@
     align-items: center;
   }
 
+  .projects-showcase .section-title-div {
+    margin-bottom: 2.5rem;
+  }
+
   .projects-showcase .wrapper {
     max-width: 100%;
     padding: 0 0rem;
@@ -186,7 +198,7 @@
     margin-bottom: 0rem;
     width: 100%;
     max-width: 100%;
-    border-top: 1px solid #444;
+    background-color: #111;
   }
 
   .project-section .project-info {
@@ -197,6 +209,7 @@
     box-sizing: border-box;
     padding: 1rem;
     margin: 0;
+    background-color: #111;
   }
 
   .project-title {
@@ -237,15 +250,19 @@
     font-size: 1.2rem;
   }
 
+  .tech-stack {
+    background-color: #111;
+  }
+
   .project-icons {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   
   .project-icons figure {
     flex: 1 1 120px;
-    background-color: #222;
+    background-color: #111;
     padding: 1rem;
     border-radius: 10px;
     align-items: center;
@@ -273,10 +290,23 @@
       margin-bottom: 5rem;
     }
 
+    .contact-section {
+      padding: 2rem;
+    }
+
+    .contact-section .section-title-div {
+      margin-bottom: 2.5rem;
+    }
+
     .contact-form {
       width: 100%;
       box-shadow: none;
-      padding: 1rem;
+      padding: 0rem;
+    }
+
+    .contact-form .btn {
+      padding: 10px 15px;
+      font-size: 1.5rem;
     }
 
   /* Footer */
@@ -369,10 +399,6 @@
 
   .about-info .about-info-content .about-paragraphs {
     width: 100%;
-  }
-
-  .about-info .about-info-content .about-paragraphs p {
-    font-size: 1.2rem;
   }
 
   .about-info .about-info-content figure {
@@ -642,10 +668,6 @@
 
   .about-info .about-info-content .about-paragraphs {
     width: 100%;
-  }
-
-  .about-info .about-info-content .about-paragraphs p {
-    font-size: 1.2rem;
   }
 
   .about-info .about-info-content figure {
@@ -948,16 +970,6 @@
     align-items: center;
   }
 
-  .about-info .about-info-content .about-paragraphs {
-    width: 100%;
-  }
-
-  .about-info .about-info-content .about-paragraphs p {
-    font-size: 0.75rem;
-    line-height: 1.5rem;
-    margin-block: 0.5rem;
-  }
-
   .about-info .about-info-content figure {
     margin-bottom: 0;
     padding: 0;
@@ -995,7 +1007,7 @@
   }
   
   .skills figure img {
-    width: 40%;
+    width: 50%;
   }
 
   /* Projects */
@@ -1083,12 +1095,6 @@
     padding: 0;
   } 
 
-  .projects-showcase .project-paragraphs p {
-    font-size: 0.75rem;
-    line-height: 1.5rem;
-    margin-block: 0.5rem;
-  }
-
   .project-links {
     justify-content: center;
   }
@@ -1149,17 +1155,16 @@
     }
 
     .contact-form input {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     .contact-form label {
-      display: block;
-      color: #fff;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     .contact-form .btn {
       font-size: 1.2rem;
+      padding: 10px 15px;
     }
 
   /* Footer */
@@ -1264,10 +1269,6 @@
 
   .projects-showcase .project-paragraphs {
   } 
-
-  .projects-showcase .project-paragraphs p {
-    font-size: 1.2rem;
-  }
 
   .project-links {
   }
