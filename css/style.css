@@ -546,6 +546,13 @@ p {
   align-items: center;
 }
 
+.project-links .btn-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .projects-showcase figure {
   width: 45%;
   padding: 0;
