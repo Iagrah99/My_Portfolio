@@ -89,6 +89,10 @@
 
   /* About */
 
+  .about-info .about-and-skills-info {
+    flex-direction: column;
+  }
+
   .about-info {
     padding: 2rem 3rem;
   }
@@ -125,9 +129,16 @@
     border: none;
   }
 
+  /* About Info Skills Section */
+
+.about-info .skill-icons {
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #111;
+}
+
   /* Skills */
 
-  .skills {
+  /* .skills {
     padding: 1rem;
     padding-bottom: 2rem;
   }
@@ -159,7 +170,7 @@
   .skills figure img {
     margin-bottom: 2rem;
     width: 75%;
-  }
+  } */
 
   /* Projects */
 
@@ -965,6 +976,10 @@
 
   /* About */
 
+  .about-info .about-and-skills-info {
+    flex-direction: column;
+  }
+
   .about-info .section-title {
     font-size: 2.5rem;
   }
@@ -983,35 +998,6 @@
   .about-info .about-info-content .profile-pic {
     border: none;
     display: none;
-  }
-
-  /* Skills */
-
-  .skills {
-    padding: 1rem;
-    padding-bottom: 5rem;
-  }
-
-  .skills .section-title {
-    font-size: 2.5rem;
-  }
-
-
-  .skills .skill-icons figure {
-    display: flex;
-    flex: 0 1 25%;
-    padding: 0rem;
-    margin-bottom: 1rem;
-  }
-
-  .skills figcaption {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    color: #fff;
-  }
-  
-  .skills figure img {
-    width: 50%;
   }
 
   /* Projects */
@@ -1194,11 +1180,17 @@
   }
 }
 
-@media (max-width: 1920px) and (min-width: 1440px) {
+@media (max-width: 1920px) and (min-width: 1080px) {
 
   .btn-small {
     padding: 8px 13px;
     font-size: 1.2rem;
+  }
+
+  /* About */
+
+  .about-info .about-and-skills-info {
+    flex-direction: column;
   }
 
   /* Projects */

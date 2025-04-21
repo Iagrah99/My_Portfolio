@@ -98,7 +98,7 @@ p {
 }
 
 .scrolled-down {
-  background-color: #0e3a18;
+  background-color: #222;
   animation: fade-in 0.5s 0s ease-out forwards;
 }
 
@@ -106,6 +106,32 @@ p {
   background-color: transparent;
   animation: fade-in 0.5s 0s ease-out forwards;
   opacity: 1;
+}
+
+.section-title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.section-title {
+  color: #fff;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px #31c654;
+  width: max-content;
+  margin-block: 3rem;
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .offscreen {
@@ -117,10 +143,16 @@ p {
   white-space: nowrap;
 }
 
+.code-tag {
+  color: #28a745;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .wrapper {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 100%;
+  /* margin: 0 auto; */
 }
 
 /* Navbar Styles */
@@ -297,22 +329,35 @@ p {
   padding-bottom: 5rem;
   background-color: #111;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-info .about-and-skills-info {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .about-info .about-info-content {
   display: flex;
-  color: #fff;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
 }
 
 .about-info .about-info-content .about-paragraphs {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 50%;
+  width: 100%;
 }
 
 .about-info .about-info-content .about-paragraphs p {
@@ -320,10 +365,9 @@ p {
   line-height: clamp(1.5rem, 2.25vw, 2.25rem); /* ~24px–36px */
 }
 
-
 .about-info .about-info-content figure {
-  max-width: 400px;
-  padding-right: 5rem;
+  max-width: 325px;
+  padding: 3rem;
 }
 
 .about-info .about-info-content .profile-pic {
@@ -334,66 +378,57 @@ p {
   border-radius: 50%;
 }
 
-/* Skills */
+/* About Info Skills Section */
 
-.skills {
-  padding: 30px;
-  padding-bottom: 15rem;
-  background-color: #111;
-  display: flex;
-  justify-content: space-evenly;
+.about-info .skill-icons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  justify-items: center;
   align-items: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
 }
 
-.section-title-div {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.section-title {
-  color: #fff;
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  text-align: center;
-  box-shadow: inset 0px -3px 0px 0px #31c654;
-  width: max-content;
-  padding-top: 10rem;
-}
-
-.skills .skill-icons {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.skills .skill-icons figure {
-  flex-basis: 20%;
+.about-info .skill-icons figure {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 10px;
+  justify-content: space-between;
+  margin: 1rem;
   text-align: center;
+  background-color: #222;
+  padding-block: 2rem;
+  border-radius: 10px;
+  transition: box-shadow 0.5s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
-.skills figure img {
+.about-info .skill-icons figure:hover {
+  background-color: #333;
+  box-shadow: 0 0 3px 3px #31c654 ;
+}
+
+.about-info .skill-icons figure img {
   margin-bottom: 2rem;
-  /* cursor: pointer; */
-  transition: transform 0.15s;
-  width: 50%;
+  transition: transform 0.3s;
+  width: 30%;
+  height: auto;
 }
 
-.skills figure img:hover {
-  transform: scale(1.05);
+.about-info .skill-icons figure img:hover {
+  transform: scale(1.1);
 }
 
-.skills figcaption {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  margin-bottom: 15px;
+.about-info figcaption {
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  margin-bottom: 1rem;
   color: #fff;
-}
+} 
 
 /* Projects */
 
@@ -412,14 +447,13 @@ p {
 }
 
 .projects-showcase .wrapper {
-  max-width: 90%; /* wider just for projects */
+  max-width: 100%; /* wider just for projects */
 }
 
 .js-projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-  gap: 5rem;
-  padding: 2rem;
+  gap: 3rem;
 }
 
 .project-section {
@@ -428,7 +462,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 3rem;
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
   background-color: #1a1a1a;
   color: #fff;
   transition: transform 0.2s ease;
@@ -487,7 +521,7 @@ p {
 }
 
 .projects-showcase .phone-figure {
-  width: 15%;
+  width: 20%;
   padding-block: 2rem;
 }
 
@@ -531,8 +565,7 @@ p {
 }
 
 .project-icons figure {
-  flex: 1 1 120px;
-  width: 20rem;
+  width: 100%;
   background-color: #222;
   padding: 2rem;
   border-radius: 10px;
@@ -550,7 +583,7 @@ p {
 
 .project-icons img {
   margin-bottom: 1rem;
-  max-width: 90px;
+  max-width: 50%;
   height: auto;
   transition: transform 0.3s;
 }
