@@ -257,7 +257,7 @@
   .project-icons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   
   .project-icons figure {
