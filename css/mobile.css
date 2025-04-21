@@ -89,6 +89,10 @@
 
   /* About */
 
+  .about-info {
+    padding: 2rem 3rem;
+  }
+
   .about-info .section-title-div {
     margin-bottom: 2.5rem;
   }
@@ -125,7 +129,7 @@
 
   .skills {
     padding: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
   }
 
   .skills .section-title-div {
