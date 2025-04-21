@@ -18,6 +18,10 @@
     width: 100%;
   }
 
+  .navbar .logo {
+    opacity: 1;
+  }
+
   .navbar-links {
     display: none;
   }
@@ -319,6 +323,10 @@
     width: 100%;
   }
 
+  .navbar .logo {
+    opacity: 1;
+  }
+
   .navbar-links {
     display: none;
   }
@@ -584,6 +592,10 @@
     z-index: 1;
     position: sticky;
     width: 100%;
+  }
+
+  .navbar .logo {
+    opacity: 1;
   }
 
   .navbar-links {
@@ -854,11 +866,7 @@
   }
   
   .navbar .logo {
-    font-size: 3rem;
-    margin: 10px;
-    cursor: pointer;
-    background-color: transparent;
-    width: 50px;
+    opacity: 1;
   }
 
   .navbar-links {

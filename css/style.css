@@ -150,6 +150,7 @@ p {
   cursor: pointer;
   background-color: transparent;
   width: 50px;
+  opacity: 0;
 }
 
 .navbar-links ul {
