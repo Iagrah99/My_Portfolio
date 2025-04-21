@@ -298,7 +298,7 @@ p {
   color: #fff;
   padding-right: 10px;
   display: inline-block;
-  animation: arrowMove 1.2s 4s ease-in-out infinite;
+  animation: arrowMove 1.2s 3.7s ease-in-out infinite;
   opacity: 0;
 }
 
@@ -443,8 +443,21 @@ p {
   height: auto;
 }
 
-.about-info .skill-icons figure img:hover {
-  transform: scale(1.1);
+.about-info .skill-icons figure:hover img {
+  animation: pulse 1.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .about-info figcaption {
