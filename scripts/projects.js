@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'NC News Website <span class="nowrap"> (Solo Project) </span>',
+    title: 'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
       src: "./img/nc-articles.png",
@@ -38,6 +38,22 @@ export const projects = [
     },
     techStack: [
       {
+        name: "HTML5",
+        image: {
+          src: "./img/icons/HTML5-Logo.png",
+          alt: "HTML5 Logo",
+          title: "HTML5",
+        },
+      },
+      {
+        name: "CSS",
+        image: {
+          src: "./img/icons/CSS-logo.png",
+          alt: "CSS Logo",
+          title: "CSS",
+        },
+      },
+      {
         name: "React",
         image: {
           src: "./img/icons/React-logo.png",
@@ -53,19 +69,11 @@ export const projects = [
           title: "React Bootstrap",
         },
       },
-      {
-        name: "CSS",
-        image: {
-          src: "./img/icons/CSS-logo.png",
-          alt: "CSS Logo",
-          title: "CSS",
-        },
-      },
     ],
   },
 
   {
-    title: 'NC News API Server <span class="nowrap"> (Solo Project) </span>',
+    title: 'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
       src: "./img/api-laptop-mockup.png",
@@ -120,7 +128,7 @@ export const projects = [
   },
 
   {
-    title: 'PlantPal Mobile App <span class="nowrap"> (Group Project) </span>',
+    title: 'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
       src: "./img/plantpal-phone-mockup.png",
@@ -187,7 +195,7 @@ export const projects = [
   },
 
   {
-    title: 'Pawfect Events Website <span class="nowrap"> (Solo Project) </span>',
+    title: 'Pawfect Events Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
       src: "./img/pe-home.png",
@@ -260,7 +268,7 @@ export const projects = [
   },
 
   {
-    title: 'Dinner Diary Website <span class="nowrap"> (Solo Project) </span>',
+    title: 'Dinner Diary Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/dd-home.png",
@@ -327,7 +335,7 @@ export const projects = [
   },
 
   {
-    title: 'Dinner Diary App <span class="nowrap"> (Solo Project) </span>',
+    title: 'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
       src: "./img/dd-app-meals.png",
