@@ -160,7 +160,7 @@ p {
 .navbar-links a {
   display: block;
   padding: 20px;
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1.5rem, 2vw, 3rem);
   color: #fff;
   transition: transform 0.15s;
 }
@@ -222,7 +222,7 @@ p {
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 6rem);
+  font-size: clamp(2.2rem, 5vw, 6rem);
   line-height: clamp(3rem, 6vw, 6.5rem);
   animation: fade-in 1.5s 0.5s ease-out forwards;
   opacity: 0;
