@@ -327,11 +327,15 @@ p {
 }
 
 .hero-content .about-arrow {
-  color: #fff;
+  color: #28a745;
   padding-right: 10px;
   display: inline-block;
   animation: arrowMove 1.2s 3.7s ease-in-out infinite;
   opacity: 0;
+}
+
+.hero-btn:hover .about-arrow {
+  color: #fff;
 }
 
 @keyframes arrowMove {
@@ -382,14 +386,13 @@ p {
 .about-info {
   padding: 30px;
   padding-bottom: 5rem;
-  /* background-color: #111; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .about-info .about-and-skills-info {
-  /* background-color: #1a1a1a; */
+  background-color: #1a1a1a;
   display: flex;
   flex-direction: row;
   color: #fff;
@@ -706,6 +709,10 @@ p {
 
 .contact-form .btn {
   background-color: #111;
+}
+
+.contact-form .btn:hover {
+  background-color: #31c654;
 }
 
 .contact-form .form-group {
