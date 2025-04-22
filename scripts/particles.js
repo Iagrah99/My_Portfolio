@@ -1,6 +1,6 @@
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
+canvas.width = document.documentElement.clientWidth
 canvas.height = window.innerHeight;
 
 let particlesArray;

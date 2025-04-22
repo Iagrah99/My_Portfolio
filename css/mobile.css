@@ -180,8 +180,7 @@
   }
 
   .projects-showcase .wrapper {
-    max-width: 100%;
-    padding: 0 0rem;
+    width: 100%;
   }
 
   .project-section {
@@ -215,6 +214,7 @@
 
   .projects-showcase figure {
     width: 100%;
+    margin: 0;
   }
 
   .projects-showcase .phone-figure {
