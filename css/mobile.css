@@ -175,17 +175,13 @@
     width: 100%;
   }
 
-  .projects-showcase .wrapper {
-    width: 100%;
-  }
-
   .projects-showcase .section-title-div {
     margin-bottom: 2.5rem;
   }
 
   .projects-showcase .wrapper {
     max-width: 100%;
-    padding: 0 0rem;
+    padding: 0 1rem;
   }
 
   .project-section {
