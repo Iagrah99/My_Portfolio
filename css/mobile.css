@@ -254,12 +254,11 @@
   .project-icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 0.5rem;
   }
   
   .project-icons figure {
     background-color: #111;
-    padding: 0.1rem;
     border-radius: 10px;
     align-items: center;
   }
