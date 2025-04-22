@@ -139,16 +139,6 @@ function renderTechStack(project) {
   return projectTechStack;
 }
 
-function alternateProjectImage() {
-  setInterval(() => {
-    projects.forEach(project => {
-      if (project.title.includes("Dinner Diary Website")) {
-        
-      }
-    })
-  }, 5000);
-}
-
 renderProjects();
 renderSkills();
 alternateProjectImage()
