@@ -172,6 +172,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
+  }
+
+  .projects-showcase .wrapper {
+    width: 100%;
   }
 
   .projects-showcase .section-title-div {
