@@ -70,10 +70,6 @@
     padding: 0;
   }
 
-  .hero-subtitle {
-    margin: 0;
-  }
-
   .hero-content .btn {
     padding: 1rem 2rem;
     font-size: 1.5rem;
@@ -91,23 +87,32 @@
 
   .about-info .about-and-skills-info {
     flex-direction: column;
+    background-color: #111;
+    box-shadow: none;
   }
 
   .about-info {
-    padding: 2rem 3rem;
+    /* padding: 2rem 3rem; */
+    padding: 0;
   }
 
   .about-info .section-title-div {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   .about-info .section-title {
     padding-top: 2rem;
   }
 
+  /* .about-info .section-subtitle {
+    line-height: 1.2rem;
+  } */
+
   .about-info .about-info-content {
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
+    padding-top: 0;
   }
 
   .about-info .about-info-content .about-paragraphs {
@@ -133,44 +138,16 @@
 
 .about-info .skill-icons {
   grid-template-columns: repeat(2, 1fr);
-  background-color: #111;
+  background-color: transparent;
 }
 
-  /* Skills */
+.about-info .skill-icons figure {
+  width: 100%;
+}
 
-  /* .skills {
-    padding: 1rem;
-    padding-bottom: 2rem;
-  }
-
-  .skills .section-title-div {
-    margin-bottom: 2.5rem;
-  }
-
-
-  .skills .skill-icons figure {
-    display: flex;
-    flex: 1 1 20%;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0rem;
-    margin-bottom: 1rem;
-  }
-
-  .skills figure img:hover {
-    transform: none;
-  }
-
-  .skills figcaption {
-    font-size: clamp(1rem, 3vw, 2rem);
-    margin-bottom: 1rem;
-    color: #fff;
-  }
-  
-  .skills figure img {
-    margin-bottom: 2rem;
-    width: 75%;
-  } */
+.about-info .skill-icons figure img {
+  width: 30%;
+}
 
   /* Projects */
 
@@ -270,15 +247,14 @@
   }
 
   .project-icons {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
   }
   
   .project-icons figure {
-    flex: 1 1 120px;
     background-color: #111;
-    padding: 1rem;
+    padding: 0.1rem;
     border-radius: 10px;
     align-items: center;
   }
@@ -288,7 +264,7 @@
   }
 
   .project-icons img {
-    width: 50%;
+    width: 40%;
   }
 
   .project-icons figure:nth-child(2) {
@@ -401,15 +377,30 @@
     display: flex;
   }
 
-  /* About */
+  /* About Info */
+
+  .about-info .about-and-skills-info {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .about-info {
+    padding: 0;
+  }
 
   .about-info .about-title {
     padding-top: 5rem;
   }
 
+  .about-info .section-title-div {
+    margin-bottom: 0;
+  }
+
   .about-info .about-info-content {
     flex-direction: column;
     align-items: center;
+    background-color: #111;
+    padding: 0;
   }
 
   .about-info .about-info-content .about-paragraphs {
@@ -426,36 +417,27 @@
     border: none;
   }
 
-  /* Skills */
+  /* About Info Skills Section */
 
-  .skills {
-    padding: 1rem;
-    padding-bottom: 5rem;
-  }
+.about-info .skill-icons {
+  grid-template-columns: repeat(3, 1fr);
+  background-color: transparent;
+  padding: 0;
+}
 
-  .skills .skill-icons figure {
-    display: flex;
-    flex: 1 1 25%;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0rem;
-    margin-bottom: 1rem;
-  }
+.about-info .skill-icons figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .skills figure img:hover {
-    transform: none;
-  }
-
-  .skills figcaption {
-    font-size: clamp(1rem, 3vw, 2rem);
-    margin-bottom: 1rem;
-    color: #fff;
-  }
-  
-  .skills figure img {
-    margin-bottom: 2rem;
-    width: 50%;
-  }
+.about-info .skill-icons figcaption {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+} 
 
   /* Projects */
 
