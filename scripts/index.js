@@ -50,7 +50,6 @@ function renderProjects() {
     ${renderProjectInfo(project)}
     </div>
     <div class="tech-stack">
-
     <div class="project-icons">
      ${renderTechStack(project)}
     </div>
@@ -94,7 +93,7 @@ function renderProjectInfo(project) {
         <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
           title="View Live Version">
          
-          ${project.title.includes('Mobile') ? '<i class="fa-brands fa-youtube fa-2x"></i> App Demo' : ' <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> Live Version'}
+          ${project.title.includes('App') ? '<i class="fa-brands fa-youtube fa-2x"></i> App Demo' : ' <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> Live Version'}
         </a>
         <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
           title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
