@@ -557,10 +557,6 @@ p {
   transition: transform 0.2s ease;
 }
 
-.project-info .compact-layout .project-paragraphs {
-  width: 60%;
-}
-
 .project-title {
   text-align: center;
   font-size: clamp(1.5rem, 3vw, 3rem);
@@ -600,16 +596,21 @@ p {
   width: 45%;
   padding: 0;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 .projects-showcase figure a:focus {
   outline: none;
 }
 
-.projects-showcase .phone-figure {
-  width: 15%;
+/* .projects-showcase .phone-figure {
+  width: 45%;
   padding-block: 2rem;
-}
+} */
+
+/* .projects-showcase figure img {
+  transform: scaleX(-1);
+} */
 
 .projects-showcase .project-img {
   transition: transform 0.15s;
@@ -617,7 +618,7 @@ p {
 
 .projects-showcase figure a:focus .project-img,
 .projects-showcase .project-img:hover {
-  transform: scale(1.02);
+  transform: scale(1.5);
 }
 
 /* Technologies Used */

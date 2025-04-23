@@ -1,26 +1,27 @@
 export const projects = [
   {
-    title: 'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/nc-articles-3.png",
-      width: 2085,
-      height: 1440,
-      alt: "NC News Website Articles Screenshot",
-    },
-    {
-      src: "./img/nc-home.png",
-      width: 2085,
-      height: 1440,
-      alt: "NC News Website Homepage Screenshot",
-    },
-    {
-      src: "./img/nc-users.png",
-      width: 2085,
-      height: 1440,
-      alt: "NC News Website Users Screenshot",
-    }
-  ],
+        src: "./img/nc-articles-3.png",
+        width: 2085,
+        height: 1440,
+        alt: "NC News Website Articles Screenshot",
+      },
+      {
+        src: "./img/nc-home.png",
+        width: 2085,
+        height: 1440,
+        alt: "NC News Website Homepage Screenshot",
+      },
+      {
+        src: "./img/nc-users.png",
+        width: 2085,
+        height: 1440,
+        alt: "NC News Website Users Screenshot",
+      },
+    ],
     figc: "NC News Website",
     paragraphs: {
       p1: "A News App which allows the user to perform actions such as browsing different articles, filtering them by topic, sort them by date, comment count, or votes.",
@@ -67,15 +68,16 @@ export const projects = [
   },
 
   {
-    title: 'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/api-laptop-mockup.png",
-      width: 450,
-      height: 353,
-      alt: "NC News API Screenshot",
-    }
-  ],
+        src: "./img/api-laptop-mockup.png",
+        width: 450,
+        height: 353,
+        alt: "NC News API Screenshot",
+      },
+    ],
     figc: "NC News API Server",
     paragraphs: {
       p1: " A backend REST Server API, which is consumed by the NC News Web App. It implements CRUD operations through HTTP requests to interact with a PostgreSQL database, which utilises queries that are tailored for specific endpoints.",
@@ -122,33 +124,34 @@ export const projects = [
   },
 
   {
-    title: 'Pawfect Events Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'Pawfect Events Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/pe-home.png",
-      width: 2085,
-      height: 1440,
-      alt: "Pawfect Events Homepage Screenshot",
-    },
-    {
-      src: "./img/pe-event.png",
-      width: 2085,
-      height: 1440,
-      alt: "Pawfect Events Event Screenshot",
-    },
-    {
-      src: "./img/pe-create.png",
-      width: 2085,
-      height: 1440,
-      alt: "Pawfect Events Create Event Screenshot",
-    },
-    {
-      src: "./img/pe-organiser.png",
-      width: 2085,
-      height: 1440,
-      alt: "Pawfect Events Create Event Screenshot",
-    },
-  ],
+        src: "./img/pe-home.png",
+        width: 2085,
+        height: 1440,
+        alt: "Pawfect Events Homepage Screenshot",
+      },
+      {
+        src: "./img/pe-event.png",
+        width: 2085,
+        height: 1440,
+        alt: "Pawfect Events Event Screenshot",
+      },
+      {
+        src: "./img/pe-create.png",
+        width: 2085,
+        height: 1440,
+        alt: "Pawfect Events Create Event Screenshot",
+      },
+      {
+        src: "./img/pe-organiser.png",
+        width: 2085,
+        height: 1440,
+        alt: "Pawfect Events Create Event Screenshot",
+      },
+    ],
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
       p1: "Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.",
@@ -195,7 +198,8 @@ export const projects = [
   },
 
   {
-    title: 'Dinner Diary Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'Dinner Diary Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/dd-home.png",
@@ -262,27 +266,28 @@ export const projects = [
   },
 
   {
-    title: 'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/plantpal-phone-mockup.png",
-      width: 201,
-      height: 427,
-      alt: "Plant Pal Sign Up Page Screenshot",
-    },
-    {
-      src: "./img/pp-add-plant.png",
-      width: 949,
-      height: 1920,
-      alt: "Plant Pal Add Plant Page Screenshot",
-    },
-    {
-      src: "./img/pp-plants.png",
-      width: 949,
-      height: 1920,
-      alt: "Plant Pal Plants Page Screenshot",
-    },
-  ],
+        src: "./img/pp-login-screen-v2.png",
+        width: 2085,
+        height: 1440,
+        alt: "Plant Pal Login Screen Screenshot",
+      },
+      {
+        src: "./img/pp-plants-v2.png",
+        width: 2085,
+        height: 1440,
+        alt: "Plant Pal Plants Screen Screenshot",
+      },
+      {
+        src: "./img/pp-add-plant-v2.png",
+        width: 2085,
+        height: 1440,
+        alt: "Plant Pal Add Plant Screen Screenshot",
+      },
+    ],
     figc: "PlantPal Mobile App",
     paragraphs: {
       p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way.",
@@ -328,32 +333,29 @@ export const projects = [
     ],
   },
 
-
-
-
-
   {
-    title: 'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+    title:
+      'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/dd-app-meals.png",
-      width: 1131,
-      height: 2291,
-      alt: "Dinner Diary App Meals Screen",
-    },
-    {
-      src: "./img/dd-app-update-meal.png",
-      width: 949,
-      height: 1920,
-      alt: "Dinner Diary App Update Meal Screen",
-    },
-    {
-      src: "./img/dd-app-meal-info.png",
-      width: 949,
-      height: 1920,
-      alt: "Dinner Diary App Meal Info Screen",
-    },
-  ],
+        src: "./img/dd-app-meals-v5.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary App Meals Screen",
+      },
+      {
+        src: "./img/dd-app-meal-details-v2.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary App Meal Details Screen",
+      },
+      {
+        src: "./img/dd-app-update-meal-v2.png",
+        width: 2085,
+        height: 1440,
+        alt: "Dinner Diary App Update Meal Screen",
+      },
+    ],
     figc: "Dinner Diary Fullstack Mobile Application",
     paragraphs: {
       p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the Dinner Diary website to mobile users.",

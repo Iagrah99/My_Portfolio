@@ -73,8 +73,8 @@ function renderProjectTitle(project) {
 function renderProjectInfo(project) {
   return `
   <div class="project-info ${project.title.includes('App') ? 'compact-layout' : ''}">
-    <figure ${project.title.includes('App') ? 'class=phone-figure' : ''}>
-        <a href="${project.links.live}" target="_blank">
+    <figure>
+        <a>
           <img class="project-img"
                data-images='${JSON.stringify(project.image)}'
                src="${project.image[0].src}"
