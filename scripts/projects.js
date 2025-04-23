@@ -3,7 +3,7 @@ export const projects = [
     title: 'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-      src: "./img/nc-articles.png",
+      src: "./img/nc-articles-3.png",
       width: 2085,
       height: 1440,
       alt: "NC News Website Articles Screenshot",
@@ -13,12 +13,6 @@ export const projects = [
       width: 2085,
       height: 1440,
       alt: "NC News Website Homepage Screenshot",
-    },
-    {
-      src: "./img/nc-topics.png",
-      width: 2085,
-      height: 1440,
-      alt: "NC News Website Topics Screenshot",
     },
     {
       src: "./img/nc-users.png",
@@ -122,73 +116,6 @@ export const projects = [
           src: "./img/icons/Jest.png",
           alt: "Jest Logo",
           title: "Jest",
-        },
-      },
-    ],
-  },
-
-  {
-    title: 'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
-    image: [
-      {
-      src: "./img/plantpal-phone-mockup.png",
-      width: 201,
-      height: 427,
-      alt: "Plant Pal Sign Up Page Screenshot",
-    },
-    {
-      src: "./img/pp-add-plant.png",
-      width: 949,
-      height: 1920,
-      alt: "Plant Pal Add Plant Page Screenshot",
-    },
-    {
-      src: "./img/pp-plants.png",
-      width: 949,
-      height: 1920,
-      alt: "Plant Pal Plants Page Screenshot",
-    },
-  ],
-    figc: "PlantPal Mobile App",
-    paragraphs: {
-      p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way.",
-      p2: "Features include plant identifications via photo, personalised names for each plant in a user's collection and countdowns for feeding and watering times. Users may also delete plants from their account if needed.",
-    },
-    links: {
-      live: "https://www.youtube.com/watch?v=cWCqloX4GWYi",
-      source: "https://github.com/lvl7wizard/PlantPal",
-    },
-    techStack: [
-      {
-        name: "MongoDB",
-        image: {
-          src: "./img/icons/MongoDB-Logo.png",
-          alt: "MongoDB Logo",
-          title: "MongoDB",
-        },
-      },
-      {
-        name: "Express JS",
-        image: {
-          src: "./img/icons/Express_Logo.png",
-          alt: "Express JS Logo",
-          title: "Express JS",
-        },
-      },
-      {
-        name: "React Native",
-        image: {
-          src: "./img/icons/React-Native-Logo.png",
-          alt: "React Native Logo",
-          title: "React Native",
-        },
-      },
-      {
-        name: "Node JS",
-        image: {
-          src: "./img/icons/Node-Js-Logo.png",
-          alt: "Node JS Logo",
-          title: "Node JS",
         },
       },
     ],
@@ -333,6 +260,77 @@ export const projects = [
       },
     ],
   },
+
+  {
+    title: 'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
+    image: [
+      {
+      src: "./img/plantpal-phone-mockup.png",
+      width: 201,
+      height: 427,
+      alt: "Plant Pal Sign Up Page Screenshot",
+    },
+    {
+      src: "./img/pp-add-plant.png",
+      width: 949,
+      height: 1920,
+      alt: "Plant Pal Add Plant Page Screenshot",
+    },
+    {
+      src: "./img/pp-plants.png",
+      width: 949,
+      height: 1920,
+      alt: "Plant Pal Plants Page Screenshot",
+    },
+  ],
+    figc: "PlantPal Mobile App",
+    paragraphs: {
+      p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way.",
+      p2: "Features include plant identifications via photo, personalised names for each plant in a user's collection and countdowns for feeding and watering times. Users may also delete plants from their account if needed.",
+    },
+    links: {
+      live: "https://www.youtube.com/watch?v=cWCqloX4GWYi",
+      source: "https://github.com/lvl7wizard/PlantPal",
+    },
+    techStack: [
+      {
+        name: "MongoDB",
+        image: {
+          src: "./img/icons/MongoDB-Logo.png",
+          alt: "MongoDB Logo",
+          title: "MongoDB",
+        },
+      },
+      {
+        name: "Express JS",
+        image: {
+          src: "./img/icons/Express_Logo.png",
+          alt: "Express JS Logo",
+          title: "Express JS",
+        },
+      },
+      {
+        name: "React Native",
+        image: {
+          src: "./img/icons/React-Native-Logo.png",
+          alt: "React Native Logo",
+          title: "React Native",
+        },
+      },
+      {
+        name: "Node JS",
+        image: {
+          src: "./img/icons/Node-Js-Logo.png",
+          alt: "Node JS Logo",
+          title: "Node JS",
+        },
+      },
+    ],
+  },
+
+
+
+
 
   {
     title: 'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
