@@ -150,7 +150,7 @@ export const projects = [
         alt: "Dinner Diary Homepage Screenshot",
       },
       {
-        src: "./img/dd-meals-2.png",
+        src: "./img/dd-meals-3.png",
         width: 2085,
         height: 1172,
         alt: "Dinner Diary Meals Screenshot",
