@@ -61,17 +61,11 @@ function renderProjects() {
   document.querySelector('.js-projects-container').innerHTML = projectsHTML;
 }
 
-// function renderProjectTitle(project) {
-//   return `
- 
-//   `;
-// }
-
 function renderProjectInfo(project) {
   return `
   <div class="project-info ${project.title.includes('App') ? 'compact-layout' : ''}">
     <figure>
-        <a>
+        <a href="${project.links.live}" target="_blank">
           <img class="project-img"
                data-images='${JSON.stringify(project.image)}'
                src="${project.image[0].src}"
@@ -142,4 +136,3 @@ function renderTechStack(project) {
 
 renderProjects();
 renderSkills();
-alternateProjectImage()
