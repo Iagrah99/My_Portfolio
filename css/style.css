@@ -585,7 +585,7 @@ p {
   gap: 1rem;
 }
 
-.projects-showcase figure {
+.projects-showcase .project-info figure {
   padding: 0;
   overflow: hidden;
   width: 100%;
