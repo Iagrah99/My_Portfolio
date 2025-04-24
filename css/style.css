@@ -176,7 +176,7 @@ p {
   padding: 0 20px;
   height: 70px;
   width: 100%;
-  animation: fade-in 1s 4s ease-out forwards;
+  animation: fade-in 1s 2.5s ease-out forwards;
   opacity: 0;
 }
 
@@ -255,7 +255,7 @@ p {
   background: transparent;
   opacity: 0;
   animation: fade-in-canvas 1.5s ease-out forwards;
-  animation-delay: 3.7s;
+  animation-delay: 2.5s;
 }
 
 @keyframes fade-in-canvas {
@@ -319,9 +319,9 @@ p {
 
 .hero-btn {
   animation:
-    slide-in-move 2s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
-    slide-in-fade 3s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
-    border-fade-in 1s 3s cubic-bezier(0.66, 0, 0.34, 1) forwards;
+    slide-in-move 1s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    slide-in-fade 1.5s 1.5s cubic-bezier(0.66, 0, 0.34, 1) forwards,
+    border-fade-in 1s 2s cubic-bezier(0.66, 0, 0.34, 1) forwards;
   border: 1px solid transparent;
   opacity: 0;
   background-color: #111;
@@ -331,7 +331,7 @@ p {
   color: #28a745;
   padding-right: 10px;
   display: inline-block;
-  animation: arrowMove 1.2s 3.7s ease-in-out infinite;
+  animation: arrowMove 1s 2.5s ease-in-out infinite;
   opacity: 0;
 }
 
