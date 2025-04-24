@@ -562,7 +562,6 @@ p {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .projects-showcase .project-paragraphs p {
@@ -571,12 +570,11 @@ p {
 }
 
 .project-links {
-  padding-top: 2rem;
+  padding: 2rem;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 2rem;
   align-items: center;
-  align-self: flex-end;
 }
 
 .project-links .btn-small {

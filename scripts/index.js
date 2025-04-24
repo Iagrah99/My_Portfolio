@@ -78,13 +78,13 @@ function renderProjectInfo(project) {
 
     <div class="project-paragraphs">
 
-    <h3 class="project-title">
-      ${project.title}
-     </h3>
-
+      <h3 class="project-title">
+        ${project.title}
+      </h3>
       <p>${project.paragraphs.p1}</p>
+    </div>
 
-      <div class="project-links">
+    <div class="project-links">
         <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
           title="View Live Version">
          
@@ -93,7 +93,6 @@ function renderProjectInfo(project) {
         <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
           title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
       </div>
-    </div>
     </div>
   `;
 }
