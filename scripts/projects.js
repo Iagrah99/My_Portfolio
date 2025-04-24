@@ -1,7 +1,7 @@
 export const projects = [
   {
     title:
-      'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+      'NC News Web App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/nc-articles-5.png",
@@ -22,7 +22,7 @@ export const projects = [
         alt: "NC News Website Users Page Screenshot",
       },
     ],
-    figc: "NC News Website",
+    figc: "NC News Full-Stack Website Application",
     paragraphs: {
       p1: "A full-stack website application for browsing and interacting with news articles. Built with the PERN stack and styled using React Bootstrap, the app allows users to filter articles by topic, date, comment count, or votes, and enables predefined users to upvote, downvote, and manage their own comments. The project showcases practical, user-focused design with a structured backend that follows the MVC pattern, exposing RESTful endpoints for efficient data handling and seamless client–server integration.",
     },
@@ -68,7 +68,7 @@ export const projects = [
 
   {
     title:
-      'Pawfect Events Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+      'Pawfect Events Web App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/pe-home-2.png",
@@ -141,7 +141,7 @@ export const projects = [
 
   {
     title:
-      'Dinner Diary Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+      'DinnerDiary Web App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/dd-home-2.png",
