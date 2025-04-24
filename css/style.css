@@ -511,7 +511,7 @@ p {
 .projects-showcase {
   /* background-color: #111; */
   padding: 30px;
-  padding-bottom: 10rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
