@@ -4,28 +4,28 @@ export const projects = [
       'NC News Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/nc-articles-3.png",
+        src: "./img/nc-articles-5.png",
         width: 2085,
-        height: 1440,
-        alt: "NC News Website Articles Screenshot",
+        height: 1172,
+        alt: "NC News Website Articles Page Screenshot",
       },
       {
-        src: "./img/nc-home.png",
+        src: "./img/nc-article-2.png",
         width: 2085,
-        height: 1440,
-        alt: "NC News Website Homepage Screenshot",
+        height: 1172,
+        alt: "NC News Website Article Page Screenshot",
       },
       {
-        src: "./img/nc-users.png",
+        src: "./img/nc-users-2.png",
         width: 2085,
-        height: 1440,
-        alt: "NC News Website Users Screenshot",
+        height: 1172,
+        alt: "NC News Website Users Page Screenshot",
       },
     ],
     figc: "NC News Website",
     paragraphs: {
-      p1: "A News App which allows the user to perform actions such as browsing different articles, filtering them by topic, sort them by date, comment count, or votes.",
-      p2: "They can order in ascending or descending order. Clicking on an article leads to its full view. Users can upvote/downvote, post/delete comments (if they are the author), and sign in as predefined users.",
+      p1: "A full-stack news application that allows users to browse and interact with articles. The frontend, built with React and React Bootstrap, enables users to filter and sort articles by topic, date, comment count, or votes, and to upvote, downvote, post or delete comments if signed in as a predefined user.",
+      p2: "The backend is a RESTful API developed with Express and PostgreSQL, supporting full CRUD operations. It follows the MVC architectural pattern and handles tailored database queries for each endpoint. The web app and API work together seamlessly to provide a responsive and interactive user experience.",
     },
     links: {
       live: "https://nc-news-uk.netlify.app/",
@@ -67,89 +67,89 @@ export const projects = [
     ],
   },
 
-  {
-    title:
-      'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
-    image: [
-      {
-        src: "./img/api-laptop-mockup.png",
-        width: 450,
-        height: 353,
-        alt: "NC News API Screenshot",
-      },
-    ],
-    figc: "NC News API Server",
-    paragraphs: {
-      p1: " A backend REST Server API, which is consumed by the NC News Web App. It implements CRUD operations through HTTP requests to interact with a PostgreSQL database, which utilises queries that are tailored for specific endpoints.",
-      p2: "The Structure of the API follows the MVC (Model, View, Controller) architectural design pattern which organises the application into different logical components.",
-    },
-    links: {
-      live: "https://nc-news-project-imqq.onrender.com/api",
-      source: "https://github.com/Iagrah99/nc-be-project",
-    },
-    techStack: [
-      {
-        name: "PostgreSQL",
-        image: {
-          src: "./img/icons/postgresql-icon.png",
-          alt: "PostgreSQL Logo",
-          title: "PostgreSQL",
-        },
-      },
-      {
-        name: "Express JS",
-        image: {
-          src: "./img/icons/Express_Logo.png",
-          alt: "Express JS Logo",
-          title: "Express JS",
-        },
-      },
-      {
-        name: "Node JS",
-        image: {
-          src: "./img/icons/Node-Js-Logo.png",
-          alt: "Node JS Logo",
-          title: "Node JS",
-        },
-      },
-      {
-        name: "Jest",
-        image: {
-          src: "./img/icons/Jest.png",
-          alt: "Jest Logo",
-          title: "Jest",
-        },
-      },
-    ],
-  },
+  // {
+  //   title:
+  //     'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+  //   image: [
+  //     {
+  //       src: "./img/nc-api-4.png",
+  //       width: 2085,
+  //       height: 1172,
+  //       alt: "NC News API Screenshot",
+  //     },
+  //   ],
+  //   figc: "NC News API Server",
+  //   paragraphs: {
+  //     p1: " A backend REST Server API, which is consumed by the NC News Web App. It implements CRUD operations through HTTP requests to interact with a PostgreSQL database, which utilises queries that are tailored for specific endpoints.",
+  //     p2: "The Structure of the API follows the MVC (Model, View, Controller) architectural design pattern which organises the application into different logical components.",
+  //   },
+  //   links: {
+  //     live: "https://nc-news-project-imqq.onrender.com/api",
+  //     source: "https://github.com/Iagrah99/nc-be-project",
+  //   },
+  //   techStack: [
+  //     {
+  //       name: "PostgreSQL",
+  //       image: {
+  //         src: "./img/icons/postgresql-icon.png",
+  //         alt: "PostgreSQL Logo",
+  //         title: "PostgreSQL",
+  //       },
+  //     },
+  //     {
+  //       name: "Express JS",
+  //       image: {
+  //         src: "./img/icons/Express_Logo.png",
+  //         alt: "Express JS Logo",
+  //         title: "Express JS",
+  //       },
+  //     },
+  //     {
+  //       name: "Node JS",
+  //       image: {
+  //         src: "./img/icons/Node-Js-Logo.png",
+  //         alt: "Node JS Logo",
+  //         title: "Node JS",
+  //       },
+  //     },
+  //     {
+  //       name: "Jest",
+  //       image: {
+  //         src: "./img/icons/Jest.png",
+  //         alt: "Jest Logo",
+  //         title: "Jest",
+  //       },
+  //     },
+  //   ],
+  // },
 
   {
     title:
       'Pawfect Events Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/pe-home.png",
+        src: "./img/pe-home-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Pawfect Events Homepage Screenshot",
       },
       {
-        src: "./img/pe-event.png",
+        src: "./img/pe-event-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Pawfect Events Event Screenshot",
       },
       {
-        src: "./img/pe-create.png",
+        src: "./img/pe-post-event-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Pawfect Events Create Event Screenshot",
       },
       {
-        src: "./img/pe-organiser.png",
+        src: "./img/pe-organiser-2.png",
         width: 2085,
-        height: 1440,
-        alt: "Pawfect Events Create Event Screenshot",
+        height: 1172,
+        alt: "Pawfect Events Organiser Profile Screenshot",
       },
     ],
     figc: "Pawfect Events Fullstack Website Application",
@@ -202,21 +202,21 @@ export const projects = [
       'Dinner Diary Website <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/dd-home.png",
+        src: "./img/dd-home-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Dinner Diary Homepage Screenshot",
       },
       {
-        src: "./img/dd-meals.png",
+        src: "./img/dd-meals-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Dinner Diary Meals Screenshot",
       },
       {
-        src: "./img/dd-user.png",
+        src: "./img/dd-user-2.png",
         width: 2085,
-        height: 1440,
+        height: 1172,
         alt: "Dinner Diary User Info Screenshot",
       },
     ],
@@ -270,22 +270,10 @@ export const projects = [
       'PlantPal Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Group Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/pp-login-screen-v2.png",
+        src: "./img/pp-mobile-2.png",
         width: 2085,
-        height: 1440,
-        alt: "Plant Pal Login Screen Screenshot",
-      },
-      {
-        src: "./img/pp-plants-v2.png",
-        width: 2085,
-        height: 1440,
-        alt: "Plant Pal Plants Screen Screenshot",
-      },
-      {
-        src: "./img/pp-add-plant-v2.png",
-        width: 2085,
-        height: 1440,
-        alt: "Plant Pal Add Plant Screen Screenshot",
+        height: 1172,
+        alt: "PlantPal Mobile Screen",
       },
     ],
     figc: "PlantPal Mobile App",
@@ -338,22 +326,10 @@ export const projects = [
       'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/dd-app-meals-v5.png",
+        src: "./img/dd-mobile-4.png",
         width: 2085,
-        height: 1440,
-        alt: "Dinner Diary App Meals Screen",
-      },
-      {
-        src: "./img/dd-app-meal-details-v2.png",
-        width: 2085,
-        height: 1440,
-        alt: "Dinner Diary App Meal Details Screen",
-      },
-      {
-        src: "./img/dd-app-update-meal-v2.png",
-        width: 2085,
-        height: 1440,
-        alt: "Dinner Diary App Update Meal Screen",
+        height: 1172,
+        alt: "DinnerDiary Mobile Screen",
       },
     ],
     figc: "Dinner Diary Fullstack Mobile Application",
