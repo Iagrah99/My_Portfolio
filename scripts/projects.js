@@ -24,8 +24,8 @@ export const projects = [
     ],
     figc: "NC News Website",
     paragraphs: {
-      p1: "A full-stack news application that allows users to browse and interact with articles. The frontend, built with React and React Bootstrap, enables users to filter and sort articles by topic, date, comment count, or votes, and to upvote, downvote, post or delete comments if signed in as a predefined user.",
-      p2: "The backend is a RESTful API developed with Express and PostgreSQL, supporting full CRUD operations. It follows the MVC architectural pattern and handles tailored database queries for each endpoint. The web app and API work together seamlessly to provide a responsive and interactive user experience.",
+      p1: "A full-stack website application for browsing and interacting with news articles. Built with the PERN stack and styled using React Bootstrap, the app allows users to filter articles by topic, date, comment count, or votes, and enables predefined users to upvote, downvote, and manage their own comments.",
+      p2: "The project showcases practical, user-focused design with a structured backend that follows the MVC pattern, exposing RESTful endpoints for efficient data handling and seamless client–server integration.",
     },
     links: {
       live: "https://nc-news-uk.netlify.app/",
