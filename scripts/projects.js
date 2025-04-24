@@ -32,19 +32,19 @@ export const projects = [
     },
     techStack: [
       {
-        name: "HTML",
+        name: "PostgreSQL",
         image: {
-          src: "./img/icons/HTML5-logo.png",
-          alt: "HTML5 Logo",
-          title: "HTML",
+          src: "./img/icons/postgresql-icon.png",
+          alt: "PostgreSQL Logo",
+          title: "PostgreSQL",
         },
       },
       {
-        name: "CSS",
+        name: "Express JS",
         image: {
-          src: "./img/icons/CSS-logo.png",
-          alt: "CSS Logo",
-          title: "CSS",
+          src: "./img/icons/Express_Logo.png",
+          alt: "Express JS Logo",
+          title: "Express JS",
         },
       },
       {
@@ -56,71 +56,15 @@ export const projects = [
         },
       },
       {
-        name: "React Bootstrap",
+        name: "Node JS",
         image: {
-          src: "./img/icons/React-Bootstrap-Icon.png",
+          src: "./img/icons/Node-Js-Logo.png",
           alt: "React Bootstrap Logo",
           title: "React Bootstrap",
         },
       },
     ],
   },
-
-  // {
-  //   title:
-  //     'NC News API Server <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
-  //   image: [
-  //     {
-  //       src: "./img/nc-api-4.png",
-  //       width: 2085,
-  //       height: 1172,
-  //       alt: "NC News API Screenshot",
-  //     },
-  //   ],
-  //   figc: "NC News API Server",
-  //   paragraphs: {
-  //     p1: " A backend REST Server API, which is consumed by the NC News Web App. It implements CRUD operations through HTTP requests to interact with a PostgreSQL database, which utilises queries that are tailored for specific endpoints.",
-  //     p2: "The Structure of the API follows the MVC (Model, View, Controller) architectural design pattern which organises the application into different logical components.",
-  //   },
-  //   links: {
-  //     live: "https://nc-news-project-imqq.onrender.com/api",
-  //     source: "https://github.com/Iagrah99/nc-be-project",
-  //   },
-  //   techStack: [
-  //     {
-  //       name: "PostgreSQL",
-  //       image: {
-  //         src: "./img/icons/postgresql-icon.png",
-  //         alt: "PostgreSQL Logo",
-  //         title: "PostgreSQL",
-  //       },
-  //     },
-  //     {
-  //       name: "Express JS",
-  //       image: {
-  //         src: "./img/icons/Express_Logo.png",
-  //         alt: "Express JS Logo",
-  //         title: "Express JS",
-  //       },
-  //     },
-  //     {
-  //       name: "Node JS",
-  //       image: {
-  //         src: "./img/icons/Node-Js-Logo.png",
-  //         alt: "Node JS Logo",
-  //         title: "Node JS",
-  //       },
-  //     },
-  //     {
-  //       name: "Jest",
-  //       image: {
-  //         src: "./img/icons/Jest.png",
-  //         alt: "Jest Logo",
-  //         title: "Jest",
-  //       },
-  //     },
-  //   ],
-  // },
 
   {
     title:
