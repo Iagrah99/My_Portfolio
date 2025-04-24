@@ -524,7 +524,7 @@ p {
 
 .js-projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
 
@@ -533,37 +533,36 @@ p {
   flex-direction: column; /* stack vertically */
   justify-content: space-between;
   align-items: center;
-  padding-top: 3rem;
   margin-bottom: 1rem;
   background-color: #1a1a1a;
   color: #fff;
+  border: 1px #222 solid;
   /* box-shadow: inset 0px -3px 0px 0px #222; */
 }
 
 .project-section .project-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   background-color: #1a1a1a;
-  padding: 1rem;
   width: 100%;
   transition: transform 0.2s ease;
 }
 
 .project-title {
-  text-align: center;
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  border-bottom: 2px solid #222;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
 .projects-showcase .project-paragraphs {
-  width: 50%;
-  padding: 1rem;
-  text-align: left;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .projects-showcase .project-paragraphs p {
@@ -573,24 +572,24 @@ p {
 
 .project-links {
   padding-top: 2rem;
-  font-size: 1.5rem;
   display: flex;
   justify-content: start;
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
+  align-self: flex-end;
 }
 
 .project-links .btn-small {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1rem;
   gap: 1rem;
 }
 
 .projects-showcase figure {
-  width: 75%;
+  width: 100%;
   padding: 0;
-  margin-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -605,11 +604,12 @@ p {
 
 .projects-showcase .project-img {
   transition: transform 0.25s;
+  width: 100%;
 }
 
 .projects-showcase .project-img:hover {
   transform: scale(1.05);
-  opacity: 0.8;
+  opacity: 0.75;
   cursor: pointer;
 }
 

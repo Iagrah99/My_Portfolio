@@ -45,7 +45,6 @@ function renderProjects() {
     projectsHTML += `
     
   <div class="project-section">
-   ${renderProjectTitle(project)}
     <div class="project-info">
     ${renderProjectInfo(project)}
     </div>
@@ -62,13 +61,11 @@ function renderProjects() {
   document.querySelector('.js-projects-container').innerHTML = projectsHTML;
 }
 
-function renderProjectTitle(project) {
-  return `
-  <h3 class="project-title">
-    ${project.title}
-  </h3>
-  `;
-}
+// function renderProjectTitle(project) {
+//   return `
+ 
+//   `;
+// }
 
 function renderProjectInfo(project) {
   return `
@@ -86,10 +83,14 @@ function renderProjectInfo(project) {
     </figure>
 
     <div class="project-paragraphs">
-      <p>${project.paragraphs.p1}</p>
-      <p>${project.paragraphs.p2}</p>
 
-      <p class="project-links">
+    <h3 class="project-title">
+      ${project.title}
+     </h3>
+
+      <p>${project.paragraphs.p1}</p>
+
+      <div class="project-links">
         <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
           title="View Live Version">
          
@@ -97,7 +98,7 @@ function renderProjectInfo(project) {
         </a>
         <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
           title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
-      </p>
+      </div>
     </div>
     </div>
   `;

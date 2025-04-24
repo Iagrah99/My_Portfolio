@@ -24,8 +24,7 @@ export const projects = [
     ],
     figc: "NC News Website",
     paragraphs: {
-      p1: "A full-stack website application for browsing and interacting with news articles. Built with the PERN stack and styled using React Bootstrap, the app allows users to filter articles by topic, date, comment count, or votes, and enables predefined users to upvote, downvote, and manage their own comments.",
-      p2: "The project showcases practical, user-focused design with a structured backend that follows the MVC pattern, exposing RESTful endpoints for efficient data handling and seamless client–server integration.",
+      p1: "A full-stack website application for browsing and interacting with news articles. Built with the PERN stack and styled using React Bootstrap, the app allows users to filter articles by topic, date, comment count, or votes, and enables predefined users to upvote, downvote, and manage their own comments. The project showcases practical, user-focused design with a structured backend that follows the MVC pattern, exposing RESTful endpoints for efficient data handling and seamless client–server integration.",
     },
     links: {
       live: "https://nc-news-uk.netlify.app/",
@@ -154,8 +153,7 @@ export const projects = [
     ],
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
-      p1: "Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events.",
-      p2: "Whether it's a dog-walking meetup, a dog agility competition, or a dog training workshop, Pawfect Events allows users to explore different types of events tailored to their interests.",
+      p1: "Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events. Whether it's a dog-walking meetup, a dog agility competition, or a dog training workshop, Pawfect Events allows users to explore different types of events tailored to their interests.",
     },
     links: {
       live: "https://pawfect-events.vercel.app/",
@@ -222,8 +220,7 @@ export const projects = [
     ],
     figc: "Dinner Diary Fullstack Website Application",
     paragraphs: {
-      p1: "A full-stack website application designed for meal tracking, focused on recording dinner records. Built with the PERN stack and styled using Tailwind CSS, the app features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
-      p2: "This project stems from a personal need to organise family meals and showcases practical, user-focused design and robust backend integration.",
+      p1: "A full-stack website application designed for meal tracking, focused on recording dinner records. Built with the PERN stack and styled using Tailwind CSS, the app features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation. This project stems from a personal need to organise family meals and showcases practical, user-focused design and robust backend integration.",
     },
     links: {
       live: "https://dinnerdiary.vercel.app/",
@@ -278,8 +275,7 @@ export const projects = [
     ],
     figc: "PlantPal Mobile App",
     paragraphs: {
-      p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way.",
-      p2: "Features include plant identifications via photo, personalised names for each plant in a user's collection and countdowns for feeding and watering times. Users may also delete plants from their account if needed.",
+      p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way. Features include plant identifications via photo, personalised names for each plant in a user's collection and countdowns for feeding and watering times. Users may also delete plants from their account if needed.",
     },
     links: {
       live: "https://www.youtube.com/watch?v=cWCqloX4GWYi",
@@ -323,7 +319,7 @@ export const projects = [
 
   {
     title:
-      'Dinner Diary App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
+      'DinnerDiary Mobile App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
         src: "./img/dd-mobile-4.png",
@@ -334,8 +330,7 @@ export const projects = [
     ],
     figc: "Dinner Diary Fullstack Mobile Application",
     paragraphs: {
-      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the Dinner Diary website to mobile users.",
-      p2: "Developed with React Native, Expo, and NativeWind, the app enables users to log, edit, and delete their meals efficiently. The app also features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
+      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the Dinner Diary website to mobile users. Developed with React Native, Expo, and NativeWind, the app enables users to log, edit, and delete their meals efficiently. The app also features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
     },
     links: {
       live: "https://www.youtube.com/watch?v=cYTlQAdOflk",
