@@ -530,14 +530,30 @@ p {
 
 .project-section {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
+  flex-direction: column;
   background-color: #1a1a1a;
   color: #fff;
-  border: 1px #222 solid;
-  /* box-shadow: inset 0px -3px 0px 0px #222; */
+  border: 1px solid #222;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.project-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 2rem;
 }
 
 .project-section .project-info {
@@ -549,6 +565,13 @@ p {
   background-color: #1a1a1a;
   width: 100%;
   transition: transform 0.2s ease;
+  flex-grow: 1;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .project-title {
@@ -567,14 +590,6 @@ p {
 .projects-showcase .project-paragraphs p {
   font-size: clamp(1rem, 1.25vw, 1.5rem);     /* ~16px–24px */
   line-height: clamp(1.5rem, 2.25vw, 2.25rem); /* ~24px–36px */
-}
-
-.project-links {
-  padding: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  gap: 2rem;
-  align-items: center;
 }
 
 .project-links .btn-small {
@@ -675,7 +690,6 @@ p {
   text-align: center;
   margin-top: 0.5rem;
 }
-
 
 /* Contact */
 

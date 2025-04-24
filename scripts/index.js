@@ -49,10 +49,10 @@ function renderProjects() {
     ${renderProjectInfo(project)}
     </div>
     <div class="tech-stack">
-    <div class="project-icons">
-     ${renderTechStack(project)}
+      <div class="project-icons">
+      ${renderTechStack(project)}
+      </div>
     </div>
-  </div>
   </div>
     
     `;
@@ -63,39 +63,40 @@ function renderProjects() {
 
 function renderProjectInfo(project) {
   return `
-  <div>
-    <figure>
-        <a href="${project.links.live}" target="_blank">
-          <img class="project-img"
-               data-images='${JSON.stringify(project.image)}'
-               src="${project.image[0].src}"
-               alt="${project.image[0].alt}"
-               width="${project.image[0].width}"
-               height="${project.image[0].height}" />
-        </a>
-        <figcaption class="offscreen">${project.fig}</figcaption>
+    <figure class="project-img-figure">
+      <a href="${project.links.live}" target="_blank">
+        <img class="project-img"
+             data-images='${JSON.stringify(project.image)}'
+             src="${project.image[0].src}"
+             alt="${project.image[0].alt}"
+             width="${project.image[0].width}"
+             height="${project.image[0].height}" />
+      </a>
+      <figcaption class="offscreen">${project.fig}</figcaption>
     </figure>
 
-    <div class="project-paragraphs">
-
-      <h3 class="project-title">
-        ${project.title}
-      </h3>
+    <div class="project-body">
+      <h3 class="project-title">${project.title}</h3>
       <p>${project.paragraphs.p1}</p>
-    </div>
 
-    <div class="project-links">
-        <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
-          title="View Live Version">
-         
-          ${project.title.includes('Mobile') ? '<i class="fa-brands fa-youtube fa-2x"></i> App Demo' : ' <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> Live Version'}
-        </a>
-        <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
-          title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
+      <div class="project-footer">
+        <div class="project-links">
+          <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
+            title="View Live Version">
+            ${
+              project.title.includes('Mobile')
+                ? '<i class="fa-brands fa-youtube fa-2x"></i> App Demo'
+                : '<i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> Live Version'
+            }
+          </a>
+          <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
+            title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
+        </div>
       </div>
     </div>
   `;
 }
+
 
 function setupImageSwitcher() {
   const imgElements = document.querySelectorAll(".project-img");
