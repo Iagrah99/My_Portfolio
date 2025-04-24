@@ -766,7 +766,7 @@ p {
 }
 
 .page-footer {
-  animation: fade-in 1s 4s ease-out forwards;
+  animation: fade-in 1s 2.5s ease-out forwards;
 }
 
 #footer i {
