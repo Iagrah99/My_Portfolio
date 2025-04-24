@@ -97,7 +97,7 @@
   }
 
   .about-info .section-title-div {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
 
   .about-info .section-title {
@@ -137,16 +137,16 @@
   /* About Info Skills Section */
 
 .about-info .skill-icons {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   background-color: transparent;
+  gap: 1.5rem;
+  padding: 0;
 }
 
 .about-info .skill-icons figure {
   width: 100%;
-}
-
-.about-info .skill-icons figure img {
-  width: 30%;
+  background-color: #111;
+  box-shadow: none;
 }
 
   /* Projects */
@@ -168,6 +168,7 @@
     background-color: #111;
     padding: 0;
     padding-bottom: 2rem;
+    margin-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1179,6 +1180,10 @@
     flex-direction: column;
   }
 
+  .about-info .about-info-content {
+    padding-block: 0;
+  }
+
   /* Projects */
 
   #projects {
@@ -1186,7 +1191,7 @@
   }
 
   .js-projects-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .projects-showcase {
@@ -1200,6 +1205,7 @@
   }
 
   .project-title {
+    font-size: 2.2rem;
   }
 
   .project-section:hover {
