@@ -22,7 +22,7 @@ export const projects = [
         alt: "NC News Website Users Page Screenshot",
       },
       {
-        src: "./img/nc-post-article-3.png",
+        src: "./img/nc-post-article-4.png",
         width: 2085,
         height: 1172,
         alt: "NC News Website Post Article Page Screenshot",
