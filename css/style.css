@@ -422,7 +422,7 @@ p {
 .about-info .about-and-skills-info {
   background-color: #1a1a1a;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
   padding: 1rem;
   color: #fff;
@@ -431,26 +431,17 @@ p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-.about-info .about-info-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  background-color: #222;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-}
-
-.about-info .about-info-content .about-paragraphs {
+.about-info-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  width: 100%;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.about-info .about-info-content .about-paragraphs p {
-  font-size: clamp(1rem, 1.25vw, 1.7rem);     /* ~16px–24px */
-  line-height: clamp(1.5rem, 2.25vw, 2.25rem); /* ~24px–36px */
+.about-info-content p {
+  font-size: clamp(1rem, 1.5vw, 1.7rem); /* Slightly larger */
+  line-height: 1.7;
+  color: #e0e0e0;
 }
 
 /* About Info Skills Section */
