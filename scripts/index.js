@@ -1,30 +1,30 @@
-import { skills } from './skills.js';
-import { projects } from './projects.js';
+import { skills } from "./skills.js";
+import { projects } from "./projects.js";
 
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
-const heroContent = document.getElementsByClassName('hero-content')[0];
-const footer = document.querySelector('.page-footer');
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+const heroContent = document.getElementsByClassName("hero-content")[0];
+const footer = document.querySelector(".page-footer");
 document.addEventListener("DOMContentLoaded", setupImageSwitcher);
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active');
-  heroContent.classList.toggle('push');
+toggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+  heroContent.classList.toggle("push");
 });
 
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
-    footer.classList.add('scrolled-down');
-    footer.classList.remove('scrolled-top')
-    footer.classList.remove("page-footer")
+    footer.classList.add("scrolled-down");
+    footer.classList.remove("scrolled-top");
+    footer.classList.remove("page-footer");
   } else {
-    footer.classList.remove('scrolled-down');
-    footer.classList.add('scrolled-top')
+    footer.classList.remove("scrolled-down");
+    footer.classList.add("scrolled-top");
   }
 });
 
 function renderSkills() {
-  let skillsHTML = '';
+  let skillsHTML = "";
 
   skills.forEach((skill) => {
     skillsHTML += `
@@ -35,11 +35,11 @@ function renderSkills() {
     `;
   });
 
-  document.querySelector('.js-skill-icons').innerHTML = skillsHTML;
+  document.querySelector(".js-skill-icons").innerHTML = skillsHTML;
 }
 
 function renderProjects() {
-  let projectsHTML = '';
+  let projectsHTML = "";
 
   projects.forEach((project) => {
     projectsHTML += `
@@ -58,7 +58,7 @@ function renderProjects() {
     `;
   });
 
-  document.querySelector('.js-projects-container').innerHTML = projectsHTML;
+  document.querySelector(".js-projects-container").innerHTML = projectsHTML;
 }
 
 function renderProjectInfo(project) {
@@ -78,25 +78,32 @@ function renderProjectInfo(project) {
     <div class="project-body">
       <h3 class="project-title">${project.title}</h3>
       <p>${project.paragraphs.p1}</p>
+      <ul>
+        ${project.paragraphs.features.map((feature) => `<li>${feature}</li>`).join("")}
+      </ul>
+      <p>${project.paragraphs.p2}</p>
 
       <div class="project-footer">
         <div class="project-links">
-          <a class="btn btn-small nowrap" href="${project.links.live}" target="_blank"
+          <a class="btn btn-small nowrap" href="${
+            project.links.live
+          }" target="_blank"
             title="View Live Version">
             ${
-              project.title.includes('Mobile')
+              project.title.includes("Mobile")
                 ? '<i class="fa-brands fa-youtube fa-2x"></i> App Demo'
                 : '<i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> Live Version'
             }
           </a>
-          <a class="btn btn-small nowrap" href="${project.links.source}" target="_blank"
+          <a class="btn btn-small nowrap" href="${
+            project.links.source
+          }" target="_blank"
             title="View Source Code"><i class="fa-brands fa-github fa-2x"></i>Source Code</a>
         </div>
       </div>
     </div>
   `;
 }
-
 
 function setupImageSwitcher() {
   const imgElements = document.querySelectorAll(".project-img");
@@ -114,7 +121,7 @@ function setupImageSwitcher() {
 }
 
 function renderTechStack(project) {
-  let projectTechStack = '';
+  let projectTechStack = "";
 
   project.techStack.forEach((stack) => {
     projectTechStack += `
@@ -125,6 +132,7 @@ function renderTechStack(project) {
         height="512"
         alt="${stack.image.alt}"
         title="${stack.image.title}"
+        class="${stack.name === "React Native" ? "rn-img" : ""}"
       />
       <figcaption class="nowrap">${stack.name}</figcaption>
     </figure>

@@ -30,8 +30,16 @@ export const projects = [
     ],
     figc: "NC News Full-Stack Website Application",
     paragraphs: {
-      p1: "A full-stack news platform built with the PERN stack and Tailwind CSS, enabling users to browse, filter, and interact with articles. Users can upvote and downvote both articles and comments, edit or delete their own comments, and engage in dynamic discussions. The app features a clean, user-centred design, a scalable backend following the MVC pattern, and RESTful API endpoints for smooth and efficient client–server communication.",
+      p1: "NC News is a full-stack news platform built using the PERN stack and styled with Tailwind CSS, enabling interactive discussions and article browsing.",
+      features: [
+        "Users can upvote, downvote, and comment on articles.",
+        "users can edit or delete their own comments.",
+        "Backend follows MVC architecture with RESTful APIs.",
+        "Focuses on clean design and user-centred experience."
+      ],
+      p2: "NC News ensures efficient client-server communication with a scalable, robust backend and intuitive frontend interaction."
     },
+    
     links: {
       live: "https://nc-news-uk.netlify.app/",
       source: "https://github.com/Iagrah99/nc-fe-project",
@@ -103,8 +111,16 @@ export const projects = [
     ],
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
-      p1: "Pawfect Events serves as a centralised platform for users to discover, organise, and participate in various dog-related events. Built using the PERN stack, the app provides organisers with the tools to create and manage events, while users can browse available events, sign up, and keep track of their upcoming events. Whether it's a dog-walking meetup, a dog agility competition, or a dog training workshop, Pawfect Events allows users to explore different types of events tailored to their interests.",
+      p1: "Pawfect Events is a centralised platform designed for users to discover, organise, and participate in various dog-related events.",
+      features: [
+        "Built with the PERN stack (PostgreSQL, Express, React, Node.js).",
+        "Organisers can create and manage event listings.",
+        "Users can browse, sign up for, and track event registrations.",
+        "Optimised event filtering and user experience design."
+      ],
+      p2: "The app offers a streamlined platform for dog enthusiasts to connect with event organisers tailored to their interests."
     },
+    
     links: {
       live: "https://pawfect-events.vercel.app/",
       source: "https://github.com/Iagrah99/pawfect-events",
@@ -170,8 +186,16 @@ export const projects = [
     ],
     figc: "Dinner Diary Fullstack Website Application",
     paragraphs: {
-      p1: "A full-stack website application designed for meal tracking, focused on recording dinner records. Built with the PERN stack and styled using Tailwind CSS, the app features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation. This project stems from a personal need to organise family meals and showcases practical, user-focused design and robust backend integration.",
+      p1: "A full-stack web application focused on efficient meal tracking, built using the PERN stack and styled with Tailwind CSS.",
+      features: [
+        "Secure authentication with bcrypt and JWT.",
+        "Fully responsive UI for desktop and mobile.",
+        "Users can record, edit, and delete dinner records.",
+        "Backend follows a scalable MVC pattern."
+      ],
+      p2: "This project was inspired by a personal need to organise family meals, demonstrating both frontend design and backend integration skills."
     },
+    
     links: {
       live: "https://dinnerdiary.vercel.app/",
       source: "https://github.com/Iagrah99/dinnerdiary",
@@ -225,8 +249,16 @@ export const projects = [
     ],
     figc: "PlantPal Mobile App",
     paragraphs: {
-      p1: "Plant Pal is a full-stack cross platform mobile app for Android and iOS which helps users keep track of their plants and maintain their health in an engaging way. Features include plant identifications via photo, personalised names for each plant in a user's collection and countdowns for feeding and watering times. Users may also delete plants from their account if needed.",
+      p1: "PlantPal is a full-stack cross-platform mobile app helping users track and maintain their plant health in an engaging way.",
+      features: [
+        "Built for Android and iOS using React Native and Expo.",
+        "Photo identification feature for plant recognition.",
+        "Personalised names and watering countdown timers.",
+        "Users can delete plants from their personal collections."
+      ],
+      p2: "PlantPal focuses on making plant care simple, fun, and highly user-centric."
     },
+    
     links: {
       live: "https://www.youtube.com/watch?v=cWCqloX4GWYi",
       source: "https://github.com/lvl7wizard/PlantPal",
@@ -280,8 +312,16 @@ export const projects = [
     ],
     figc: "Dinner Diary Fullstack Mobile Application",
     paragraphs: {
-      p1: "A full-stack mobile application designed to deliver a seamless and intuitive meal-tracking experience, bringing the core functionality of the Dinner Diary website to mobile users. Developed with React Native, Expo, and NativeWind, the app enables users to log, edit, and delete their meals efficiently. The app also features secure authentication via bcrypt for password hashing and JSON Web Token (JWT) for authorisation.",
+      p1: "A full-stack mobile application designed for seamless meal tracking, bringing Dinner Diary’s functionality to mobile users.",
+      features: [
+        "Developed using React Native, Expo, and NativeWind.",
+        "Allows users to log, edit, and delete meal records.",
+        "Implements secure authentication via bcrypt for password hashing.",
+        "Utilises JSON Web Tokens (JWT) for authorisation."
+      ],
+      p2: "The app offers a smooth, intuitive user experience focused on meal management and personal record keeping."
     },
+    
     links: {
       live: "https://www.youtube.com/watch?v=cYTlQAdOflk",
       source: "https://github.com/Iagrah99/flp-app",
