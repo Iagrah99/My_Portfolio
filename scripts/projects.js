@@ -4,22 +4,28 @@ export const projects = [
       'NC News Web App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/nc-articles-5.png",
+        src: "./img/nc-articles-6.png",
         width: 2085,
         height: 1172,
         alt: "NC News Website Articles Page Screenshot",
       },
       {
-        src: "./img/nc-article-2.png",
+        src: "./img/nc-article-3.png",
         width: 2085,
         height: 1172,
         alt: "NC News Website Article Page Screenshot",
       },
       {
-        src: "./img/nc-users-2.png",
+        src: "./img/nc-users-3.png",
         width: 2085,
         height: 1172,
         alt: "NC News Website Users Page Screenshot",
+      },
+      {
+        src: "./img/nc-post-article-3.png",
+        width: 2085,
+        height: 1172,
+        alt: "NC News Website Post Article Page Screenshot",
       },
     ],
     figc: "NC News Full-Stack Website Application",
