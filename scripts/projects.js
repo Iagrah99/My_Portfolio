@@ -30,7 +30,7 @@ export const projects = [
     ],
     figc: "NC News Full-Stack Website Application",
     paragraphs: {
-      p1: "A full-stack website application for browsing and interacting with news articles. Built with the PERN stack and styled using React Bootstrap, the app allows users to filter articles by topic, date, comment count, or votes, and enables predefined users to upvote, downvote, and manage their own comments. The project showcases practical, user-focused design with a structured backend that follows the MVC pattern, exposing RESTful endpoints for efficient data handling and seamless client–server integration.",
+      p1: "A full-stack news platform built with the PERN stack and Tailwind CSS, enabling users to browse, filter, and interact with articles. Users can upvote and downvote both articles and comments, edit or delete their own comments, and engage in dynamic discussions. The app features a clean, user-centred design, a scalable backend following the MVC pattern, and RESTful API endpoints for smooth and efficient client–server communication.",
     },
     links: {
       live: "https://nc-news-uk.netlify.app/",
