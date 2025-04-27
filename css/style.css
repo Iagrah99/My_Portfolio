@@ -590,6 +590,7 @@ p {
   font-size: clamp(1rem, 1.25vw, 1.5rem);
   line-height: clamp(1.5rem, 2.25vw, 2.25rem);
   color: #e0e0e0;
+  margin: 0;
 }
 
 /* Bullet List */
@@ -630,7 +631,6 @@ p {
   padding-top: 2rem;
 }
 
-/* Project Links (unchanged) */
 .project-links {
   display: flex;
   gap: 2rem;

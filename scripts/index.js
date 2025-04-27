@@ -78,10 +78,10 @@ function renderProjectInfo(project) {
     <div class="project-body">
       <h3 class="project-title">${project.title}</h3>
       <p>${project.paragraphs.p1}</p>
+      <p>${project.paragraphs.p2}</p>
       <ul>
         ${project.paragraphs.features.map((feature) => `<li>${feature}</li>`).join("")}
       </ul>
-      <p>${project.paragraphs.p2}</p>
 
       <div class="project-footer">
         <div class="project-links">
