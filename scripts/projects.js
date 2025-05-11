@@ -36,11 +36,10 @@ export const projects = [
         "Users can upvote, downvote, and comment on articles.",
         "users can edit or delete their own comments.",
         "Backend follows MVC architecture with RESTful APIs.",
-        "Focuses on clean design and user-centred experience."
+        "Focuses on clean design and user-centred experience.",
       ],
-     
     },
-    
+
     links: {
       live: "https://nc-news-uk.netlify.app/",
       source: "https://github.com/Iagrah99/nc-fe-project",
@@ -104,12 +103,6 @@ export const projects = [
         alt: "Pawfect Events Create Event Screenshot",
       },
       {
-        src: "./img/pe-user.jpg",
-        width: 2085,
-        height: 1172,
-        alt: "Pawfect Events Organiser Profile Screenshot",
-      },
-        {
         src: "./img/pe-edit-event.jpg",
         width: 2085,
         height: 1172,
@@ -119,16 +112,15 @@ export const projects = [
     figc: "Pawfect Events Fullstack Website Application",
     paragraphs: {
       p1: "Pawfect Events is a centralised platform designed for users to discover, organise, and participate in various dog-related events.",
-       p2: "The app offers a streamlined platform for dog enthusiasts to connect with event organisers tailored to their interests.",
+      p2: "The app offers a streamlined platform for dog enthusiasts to connect with event organisers tailored to their interests.",
       features: [
         "Built with the PERN stack (PostgreSQL, Express, React, Node.js).",
         "Organisers can create and manage event listings.",
         "Users can browse, sign up for, and track event registrations.",
-        "Optimised event filtering and user experience design."
+        "Optimised event filtering and user experience design.",
       ],
-     
     },
-    
+
     links: {
       live: "https://pawfect-events.vercel.app/",
       source: "https://github.com/Iagrah99/pawfect-events",
@@ -200,11 +192,10 @@ export const projects = [
         "Secure authentication with bcrypt and JWT.",
         "Fully responsive UI for desktop and mobile.",
         "Users can record, edit, and delete dinner records.",
-        "Backend follows a scalable MVC pattern."
+        "Backend follows a scalable MVC pattern.",
       ],
-     
     },
-    
+
     links: {
       live: "https://dinnerdiary.vercel.app/",
       source: "https://github.com/Iagrah99/dinnerdiary",
@@ -264,11 +255,10 @@ export const projects = [
         "Built for Android and iOS using React Native and Expo.",
         "Photo identification feature for plant recognition.",
         "Personalised names and watering countdown timers.",
-        "Users can delete plants from their personal collections."
+        "Users can delete plants from their personal collections.",
       ],
-     
     },
-    
+
     links: {
       live: "https://www.youtube.com/watch?v=cWCqloX4GWYi",
       source: "https://github.com/lvl7wizard/PlantPal",
@@ -328,11 +318,10 @@ export const projects = [
         "Developed using React Native, Expo, and NativeWind.",
         "Allows users to log, edit, and delete meal records.",
         "Implements secure authentication via bcrypt for password hashing.",
-        "Utilises JSON Web Tokens (JWT) for authorisation."
+        "Utilises JSON Web Tokens (JWT) for authorisation.",
       ],
-     
     },
-    
+
     links: {
       live: "https://www.youtube.com/watch?v=cYTlQAdOflk",
       source: "https://github.com/Iagrah99/flp-app",
