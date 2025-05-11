@@ -86,28 +86,34 @@ export const projects = [
       'Pawfect Events Web App <span class="nowrap"> <span class="code-tag"> &lt; </span> Solo Project <span class="code-tag"> / &gt; </span> </span>',
     image: [
       {
-        src: "./img/pe-home-2.png",
+        src: "./img/pe-home.jpg",
         width: 2085,
         height: 1172,
         alt: "Pawfect Events Homepage Screenshot",
       },
       {
-        src: "./img/pe-event-2.png",
+        src: "./img/pe-event.jpg",
         width: 2085,
         height: 1172,
         alt: "Pawfect Events Event Screenshot",
       },
       {
-        src: "./img/pe-post-event-2.png",
+        src: "./img/pe-create-event.jpg",
         width: 2085,
         height: 1172,
         alt: "Pawfect Events Create Event Screenshot",
       },
       {
-        src: "./img/pe-organiser-2.png",
+        src: "./img/pe-user.jpg",
         width: 2085,
         height: 1172,
         alt: "Pawfect Events Organiser Profile Screenshot",
+      },
+        {
+        src: "./img/pe-edit-event.jpg",
+        width: 2085,
+        height: 1172,
+        alt: "Pawfect Events Edit Event Screenshot",
       },
     ],
     figc: "Pawfect Events Fullstack Website Application",
